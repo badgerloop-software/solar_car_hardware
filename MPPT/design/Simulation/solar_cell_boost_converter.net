@@ -1,0 +1,19 @@
+* C:\Users\Windows PC\Desktop\Badgerloop\git_repos\solar_car_hardware\MPPT\design\Simulation\solar_cell_boost_converter.asc
+R1 Array_out N001 0.010
+I1 0 N001 7
+D1 N001 0 DiodeSolarCell
+L1 Array_out N002 30µH
+M1 N002 PWM_IN 0 0 NMOS
+D2 N002 V_out D
+C1 V_out 0 100µF
+R4 V_out 0 10
+V1 PWM_IN 0 PULSE(0 10 0 0 0 9e-6 1e-5 100000)
+.model D D
+.lib C:\Users\Windows PC\Documents\LTspiceXVII\lib\cmp\standard.dio
+.model NMOS NMOS
+.model PMOS PMOS
+.lib C:\Users\Windows PC\Documents\LTspiceXVII\lib\cmp\standard.mos
+.tran 0 0.25 0
+.model DiodeSolarCell D LEVEL=1 IS=8.0411e-10 N=72.2592 EG=80.2077 XTI=216.7776
+.backanno
+.end
