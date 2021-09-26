@@ -2,3 +2,5 @@
 Version=1.0
 [Project1]
 ProjectPath=board_template\board_template.PrjPcb
+[Project2]
+ProjectPath=led_tutorial_board\led_tutorial.PrjPcb
