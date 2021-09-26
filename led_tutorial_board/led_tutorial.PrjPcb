@@ -58,7 +58,7 @@ GenerateClassCluster=0
 DocumentUniqueId=YKQPVHWL
 
 [Document2]
-DocumentPath=Sheet1.SchDoc
+DocumentPath=LED.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
