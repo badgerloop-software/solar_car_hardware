@@ -1,2 +1,6 @@
 Record=TopLevelDocument|FileName=main_io.SchDoc|SheetNumber=1
+Motor_Controller_Interface
 Record=NoMainPathDocument|SourceDocument=main_io.SchDoc|FileName=mc_interface_mppt.SchDoc|SheetNumber=2
+=======
+Record=NoMainPathDocument|SourceDocument=main_io.SchDoc|FileName=Sheet1.SchDoc|SheetNumber=2
+main

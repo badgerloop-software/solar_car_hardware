@@ -8,3 +8,5 @@ ProjectPath=driver_io\driver_io.PrjPcb
 ProjectPath=main_io\main_io.PrjPcb
 [Project4]
 ProjectPath=hv_controller\hv_controller.PrjPcb
+[Project5]
+ProjectPath=array_breakout\array_breakout.PrjPcb
