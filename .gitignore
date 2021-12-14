@@ -7,3 +7,5 @@ Project Outputs for */
 *.txt
 ~*
 *.lnk
+*.net
+*.raw
