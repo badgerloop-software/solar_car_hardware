@@ -1,0 +1,14 @@
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 2:52:02 PM On 1/1/2022
+
+Output: Bill of Materials
+Type  : BOM
+From  : Variant [[No Variations]] of Project [mppt.PrjPcb]
+   Generated File[Bill of Materials-mppt.xlsx]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 2:52:08 PM On 1/1/2022

@@ -1,0 +1,450 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<style type="text/css">
+		h1, h2, h3, h4, h5, h6 {
+			font-family : segoe ui;
+			color : black;
+			background-color : #EDE7D9;
+			padding: 0.3em;
+		}
+
+		h1 {
+			font-size: 1.2em;
+		}		
+
+		h2 {
+			font-size: 1.2em;
+		}
+
+		body {
+			font-family : segoe ui;
+		}
+
+		td, th {
+			padding: 0.5em;
+			text-align : left;
+			width: 10em;
+		}
+		th {
+			background-color : #EEEEEE;
+
+		}
+		th.column1, td.column1 {
+			text-align: left;
+			width : auto;
+		}
+		table {
+			width : 100%;
+			font-size: 0.9em;
+		}
+
+		.DRC_summary_header {
+			padding-bottom : 0.1em;
+			border : 0px solid black;
+			width: 100%;
+			align: left;
+		}
+
+		.DRC_summary_header_col1,
+		.DRC_summary_header_col2, 
+		.DRC_summary_header_col3 {
+			color : black;
+			font-size:100%;
+			padding : 0em;
+			padding-top : 0.2em;
+			padding-bottom 0.2em;
+			border : 0px solid black;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.DRC_summary_header_col1 {
+			font-weight: bold;
+			width: 8em;
+		}
+
+		.DRC_summary_header_col2 {
+			width: 0.1em;
+		
+		}
+
+		.DRC_summary_header_col3 {
+			width : auto;
+		}
+
+		.header_holder {
+		    Width = 100%;
+		    border = 0px solid green;
+		    padding = 0;
+		}
+
+
+		.front_matter, .front_matter_column1, .front_matter_column2, .front_matter_column3
+		{
+			left : 0;
+			top : 0;
+			padding: 0em;
+			padding-top : 0.1em;
+			border : 0px solid black;
+			width : 100%;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.front_matter_column1 {
+			width : 8em;
+			font-weight: bold;
+		}
+
+		.front_matter_column2 {
+			width: 0.1em;
+		}
+
+		.front_matter_column3 {
+			width : auto;
+		}
+
+		.total_column1, .total_column {
+			font-weight : bold;
+		}
+		.total_column1 {
+			text-align : left;
+		}
+		.warning, .error {
+			color : red;
+			font-weight : bold;
+		}
+		tr.onmouseout_odd {
+			background-color : #white;
+		}
+		tr.onmouseout_even { 
+			background-color : #FAFAFA;
+		}
+		tr.onmouseover_odd, tr.onmouseover_even { 
+			background-color : #EEEEEE;
+		} 
+		a:link, a:visited, .q a:link,.q a:active,.q {
+			color: #21489e; 
+		}
+		a:link.callback, a:visited.callback { 
+			color: #21489e;
+		}
+		a:link.customize, a:visited.customize {
+			color: #C0C0C0;
+			position: absolute; 
+			right: 10px;
+		}	
+		p.contents_level1 {
+			font-weight : bold;
+			font-size : 110%;
+			margin : 0.5em;
+		}
+		p.contents_level2 {
+			position : relative;
+			left : 20px;
+			margin : 0.5em;
+		}
+	</style><script type="text/javascript">
+		function coordToMils(coord) {
+			var number = coord / 10000;
+			
+			if (number != number.toFixed(3))
+				number = number.toFixed(3);
+
+			return number + 'mil'
+		}
+
+		function coordToMM(coord) {
+			var number = 0.0254 * coord / 10000;
+			
+			if (number != number.toFixed(4))
+				number = number.toFixed(4);
+			
+			return number + 'mm'
+		}
+	
+		function convertCoord(coordNode, units) {
+			for (var i = 0; i < coordNode.childNodes.length; i++) {
+				coordNode.removeChild(coordNode.childNodes[i]);
+			}
+
+			var coord = coordNode.getAttribute('value');
+			if (coord != null) {
+				if (units == 'mm') {
+					textNode = document.createTextNode(coordToMM(coord));
+					coordNode.appendChild(textNode);
+				} else if (units == 'mil') {
+					textNode = document.createTextNode(coordToMils(coord));		
+					coordNode.appendChild(textNode);	
+				}
+			}
+		}
+	
+		function convertUnits(unitNode, units) {
+			for (var i = 0; i < unitNode.childNodes.length; i++) {
+				unitNode.removeChild(unitNode.childNodes[i]);		
+			}
+		
+			textNode = document.createTextNode(units); 
+			unitNode.appendChild(textNode);
+		}
+	
+		function changeUnits(radio_input, units) {
+			if (radio_input.checked) {
+			
+				var elements = document.getElementsByName('coordinate');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertCoord(elements[i], units);
+					}
+				}
+	
+				var elements = document.getElementsByName('units');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertUnits(elements[i], units);
+					}
+				}
+			}
+		}
+	</script><title>Design Rule Verification Report</title>
+</head>
+<body onload=""><img ALT="Altium" src="
+			file://C:\Users\Public\Documents\Altium\AD21\Templates\AD_logo.png
+		"><h1>Design Rule Verification Report</h1>
+<table class="header_holder">
+<td class="column1">
+<table class="front_matter">
+<tr class="front_matter">
+<td class="front_matter_column1">Date:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">1/1/2022</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">2:15:36 PM</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Elapsed Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">00:00:02</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Filename:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3"><a href="file:///C:\Users\19202\Desktop\badgerloop\solar_car_hardware\mppt\mppt.PcbDoc" class="file"><acronym title="C:\Users\19202\Desktop\badgerloop\solar_car_hardware\mppt\mppt.PcbDoc">C:\Users\19202\Desktop\badgerloop\solar_car_hardware\mppt\mppt.PcbDoc</acronym></a></td>
+</tr>
+</table>
+</td>
+<td class="column2">
+<table class="DRC_summary_header">
+<tr>
+<td class="DRC_summary_header_col1">Warnings:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3">0</td></tr>
+<tr>
+<td class="DRC_summary_header_col1">Rule Violations:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3" style="color : red">30</td></tr>
+</table>
+</td>
+</table><a name="IDD2R0SXVEFOV2P2BACQAR4JDCDBSJA5FMYQL253LRLUQYDDOGB3QN"><h2>Summary</h2></a><table>
+<tr>
+<th class="column1">Warnings</th>
+<th class="column2">Count</th>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">0</td>
+</tr>
+</table><br><table>
+<tr>
+<th class="column1">Rule Violations</th>
+<th class="column2">Count</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDXKF1YPJL0WSMH0AEMJBHU234QMIVJFD5N1YBYGKBCJMCGVHJWRNC">Clearance Constraint (Gap=24mil) (InNetClass('HV_115V')),(NOT InNetClass('HV_115V'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDU5Y1KFLWX0RVEVYI1JIB4FOQ4BV2WPS4GB3GKAM0NNPBSNFYLN2P">Clearance Constraint (Gap=24mil) (InNetClass('HV_60V')),((NOT InNetClass('HV_60V')) AND (NOT InNetClass('HV_115V')))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDUI4QZJLNCOAHJF3DROMZZ45VQMOMKQCD3OXPHTC0YR5EFJE0JJZF">Clearance Constraint (Gap=10mil) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDQ3RSZJTYD1ZNVJFR10RN3XZDMVWMA5X2LJNIDKHUZS3MKEWDKNK">Short-Circuit Constraint (Allowed=No) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDZM3M44M14TQYCW1YW4CCXY4QKCMEJZAXE3PTGIHBJ2BXNVOD5XFP">Un-Routed Net Constraint ( (All) )</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID0X20UHO0KRPYME4ACUFFF0NPPMWR3X3EGPKWDYXGLK5BXOLLWLH">Modified Polygon (Allow modified: No), (Allow shelved: No)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDK1UZN5RETP1XPJLIKROAL4UATIUHKQ15D5MFL2KNZSYLT1ZNI0K">Width Constraint (Min=8mil) (Max=100mil) (Preferred=10mil) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDLBDEW05OLLXYGOOEVYQBLNBMCBFRDIVVQERMLND0P0RCMH24F34P">Power Plane Connect Rule(Relief Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDTTK44RW5JDBOFATTMW0PU13EAMS2ZNSVATROCTB0YRVQWNKQ25PH">Hole Size Constraint (Min=1mil) (Max=200mil) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDFDIEAUFQX2KVD24A2HFJTHL3RHZD4J1Y1TLSMYJLFCX5FVNSARSG">Hole To Hole Clearance (Gap=10mil) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDRJZGC3RMOUZWK2QNNBJJAKI2WONTVSMRO1V4HUE4HEJECYL4WUWN">Minimum Solder Mask Sliver (Gap=10mil) (All),(All)</a></td>
+<td class="column2">30</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDYOLFQD0GQM0XFGMNB2SWB0Q10OGIIPWWOBBRUGJDMXU0ZBP3HYNC">Silk To Solder Mask (Clearance=0mil) (IsPad),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDYSB0IT3SIMY3ICW3KOLTLUXKVF23HEHWROYSLVEIFB0XUAHZEYUM">Silk to Silk (Clearance=0mil) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDWYXNJWOKHVJRB0CHAOAGNHVN3PTMN5RW3BM2WIOHXTTB0BZG4LG">Net Antennae (Tolerance=0mil) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDQZWIEXBPZM33DVQMQDCKANVYABK13F2SHYKNE0IO43TZ3WYUHOPM">Room U_boost_converter_telem3 (Bounding Region = (5260mil, 2865mil, 6920mil, 5095mil) (InComponentClass('U_boost_converter_telem3'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDYXV3ZC41OTICO3GU55CTSOPRQLRVN2W3QC3Y22XYITAPCZJNP3O">Room STRING3 (Bounding Region = (5145mil, 1035mil, 6950mil, 5310mil) (InComponentClass('STRING3'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDBCQC2G1TA0OVF1SW0I1J3RTWDCIEHT2E3W0ZPIDHAYLBSGDDFVI">Room U_boost_converter_telem2 (Bounding Region = (3538.16mil, 2867.205mil, 5198.16mil, 5097.205mil) (InComponentClass('U_boost_converter_telem2'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID2C2AHNMAZAWTFVBKSPFYHH3LUB5ND5KI0LPLTII2VT3NYQ0DOKL">Room U_boost_converter_telem1 (Bounding Region = (1789mil, 2867mil, 3449mil, 5097mil) (InComponentClass('U_boost_converter_telem1'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDCUB4RMV1D3HFRGKDGAGLKQFSJGIKUMHIU3BKGLWG15LKWMO0YC">Room STRING2 (Bounding Region = (3424.803mil, 1035.669mil, 5225.197mil, 5305mil) (InComponentClass('STRING2'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDRYW4ZCMJ4BILJPVLQHNHL3TLALDEGAE5BDO03JMARN3MCKV3D14E">Room STRING1 (Bounding Region = (1675mil, 1035mil, 3480mil, 5295mil) (InComponentClass('STRING1'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDSIWF5SY3GWXOBW2IGYEDSXVEOWOGPEXXN3QMQCV2BJRJZJR0QZH">Height Constraint (Min=0mil) (Max=2000mil) (Prefered=500mil) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">30</td>
+</tr>
+</table><br><a name="IDRJZGC3RMOUZWK2QNNBJJAKI2WONTVSMRO1V4HUE4HEJECYL4WUWN"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Minimum Solder Mask Sliver (Gap=10mil) (All),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\19202\Desktop\badgerloop\solar_car_hardware\mppt\mppt.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1985.887mil|Location2.X=1997.137mil|Location1.Y=5144.375mil|Location2.Y=5155.625mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\19202\Desktop\badgerloop\solar_car_hardware\mppt\mppt.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1985.887mil|Location2.X=1997.137mil|Location1.Y=5144.375mil|Location2.Y=5155.625mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (7.748mil &lt; 10mil) Between Pad D3-1(2040mil,4212.992mil) on Top Layer And Pad D3-2(2040mil,4087.008mil) on Top Layer [Top Solder] Mask Sliver [7.748mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\19202\Desktop\badgerloop\solar_car_hardware\mppt\mppt.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3740.887mil|Location2.X=3752.137mil|Location1.Y=5137.367mil|Location2.Y=5148.617mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\19202\Desktop\badgerloop\solar_car_hardware\mppt\mppt.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3740.887mil|Location2.X=3752.137mil|Location1.Y=5137.367mil|Location2.Y=5148.617mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (7.748mil &lt; 10mil) Between Pad D4-1(3795mil,4205.984mil) on Top Layer And Pad D4-2(3795mil,4080mil) on Top Layer [Top Solder] Mask Sliver [7.748mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\19202\Desktop\badgerloop\solar_car_hardware\mppt\mppt.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5485.887mil|Location2.X=5497.137mil|Location1.Y=5154.375mil|Location2.Y=5165.625mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\19202\Desktop\badgerloop\solar_car_hardware\mppt\mppt.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5485.887mil|Location2.X=5497.137mil|Location1.Y=5154.375mil|Location2.Y=5165.625mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (7.748mil &lt; 10mil) Between Pad D5-1(5540mil,4222.992mil) on Top Layer And Pad D5-2(5540mil,4097.008mil) on Top Layer [Top Solder] Mask Sliver [7.748mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\19202\Desktop\badgerloop\solar_car_hardware\mppt\mppt.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1275.887mil|Location2.X=1287.137mil|Location1.Y=5419.375mil|Location2.Y=5430.625mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\19202\Desktop\badgerloop\solar_car_hardware\mppt\mppt.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1275.887mil|Location2.X=1287.137mil|Location1.Y=5419.375mil|Location2.Y=5430.625mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (7.748mil &lt; 10mil) Between Pad D6-1(1330mil,4487.992mil) on Top Layer And Pad D6-2(1330mil,4362.008mil) on Top Layer [Top Solder] Mask Sliver [7.748mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\19202\Desktop\badgerloop\solar_car_hardware\mppt\mppt.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2059.792mil|Location2.X=2071.042mil|Location1.Y=2232.899mil|Location2.Y=2244.149mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\19202\Desktop\badgerloop\solar_car_hardware\mppt\mppt.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2059.792mil|Location2.X=2071.042mil|Location1.Y=2232.899mil|Location2.Y=2244.149mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (6.764mil &lt; 10mil) Between Pad U1-1(2049.606mil,1191.772mil) on Top Layer And Pad U1-9(2124.606mil,1290.197mil) on Top Layer [Top Solder] Mask Sliver [6.764mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\19202\Desktop\badgerloop\solar_car_hardware\mppt\mppt.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2109.792mil|Location2.X=2121.042mil|Location1.Y=2232.899mil|Location2.Y=2244.149mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\19202\Desktop\badgerloop\solar_car_hardware\mppt\mppt.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2109.792mil|Location2.X=2121.042mil|Location1.Y=2232.899mil|Location2.Y=2244.149mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (6.764mil &lt; 10mil) Between Pad U1-2(2099.606mil,1191.772mil) on Top Layer And Pad U1-9(2124.606mil,1290.197mil) on Top Layer [Top Solder] Mask Sliver [6.764mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\19202\Desktop\badgerloop\solar_car_hardware\mppt\mppt.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2159.792mil|Location2.X=2171.042mil|Location1.Y=2232.899mil|Location2.Y=2244.149mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\19202\Desktop\badgerloop\solar_car_hardware\mppt\mppt.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2159.792mil|Location2.X=2171.042mil|Location1.Y=2232.899mil|Location2.Y=2244.149mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (6.764mil &lt; 10mil) Between Pad U1-3(2149.606mil,1191.772mil) on Top Layer And Pad U1-9(2124.606mil,1290.197mil) on Top Layer [Top Solder] Mask Sliver [6.764mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\19202\Desktop\badgerloop\solar_car_hardware\mppt\mppt.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2178.17mil|Location2.X=2189.42mil|Location1.Y=2232.899mil|Location2.Y=2244.149mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\19202\Desktop\badgerloop\solar_car_hardware\mppt\mppt.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2178.17mil|Location2.X=2189.42mil|Location1.Y=2232.899mil|Location2.Y=2244.149mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (6.764mil &lt; 10mil) Between Pad U1-4(2199.606mil,1191.772mil) on Top Layer And Pad U1-9(2124.606mil,1290.197mil) on Top Layer [Top Solder] Mask Sliver [6.764mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\19202\Desktop\badgerloop\solar_car_hardware\mppt\mppt.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2181.052mil|Location2.X=2192.302mil|Location1.Y=2336.245mil|Location2.Y=2347.495mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\19202\Desktop\badgerloop\solar_car_hardware\mppt\mppt.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2181.052mil|Location2.X=2192.302mil|Location1.Y=2336.245mil|Location2.Y=2347.495mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (6.764mil &lt; 10mil) Between Pad U1-5(2199.606mil,1388.622mil) on Top Layer And Pad U1-9(2124.606mil,1290.197mil) on Top Layer [Top Solder] Mask Sliver [6.764mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\19202\Desktop\badgerloop\solar_car_hardware\mppt\mppt.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2159.792mil|Location2.X=2171.042mil|Location1.Y=2336.245mil|Location2.Y=2347.495mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\19202\Desktop\badgerloop\solar_car_hardware\mppt\mppt.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2159.792mil|Location2.X=2171.042mil|Location1.Y=2336.245mil|Location2.Y=2347.495mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (6.764mil &lt; 10mil) Between Pad U1-6(2149.606mil,1388.622mil) on Top Layer And Pad U1-9(2124.606mil,1290.197mil) on Top Layer [Top Solder] Mask Sliver [6.764mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\19202\Desktop\badgerloop\solar_car_hardware\mppt\mppt.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2109.792mil|Location2.X=2121.042mil|Location1.Y=2336.245mil|Location2.Y=2347.495mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\19202\Desktop\badgerloop\solar_car_hardware\mppt\mppt.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2109.792mil|Location2.X=2121.042mil|Location1.Y=2336.245mil|Location2.Y=2347.495mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (6.764mil &lt; 10mil) Between Pad U1-7(2099.606mil,1388.622mil) on Top Layer And Pad U1-9(2124.606mil,1290.197mil) on Top Layer [Top Solder] Mask Sliver [6.764mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\19202\Desktop\badgerloop\solar_car_hardware\mppt\mppt.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2059.792mil|Location2.X=2071.042mil|Location1.Y=2336.245mil|Location2.Y=2347.495mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\19202\Desktop\badgerloop\solar_car_hardware\mppt\mppt.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2059.792mil|Location2.X=2071.042mil|Location1.Y=2336.245mil|Location2.Y=2347.495mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (6.764mil &lt; 10mil) Between Pad U1-8(2049.606mil,1388.622mil) on Top Layer And Pad U1-9(2124.606mil,1290.197mil) on Top Layer [Top Solder] Mask Sliver [6.764mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\19202\Desktop\badgerloop\solar_car_hardware\mppt\mppt.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=196.58mil|Location2.X=207.83mil|Location1.Y=1347.383mil|Location2.Y=1358.633mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\19202\Desktop\badgerloop\solar_car_hardware\mppt\mppt.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=196.58mil|Location2.X=207.83mil|Location1.Y=1347.383mil|Location2.Y=1358.633mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (1.843mil &lt; 10mil) Between Pad U7-1(189.409mil,374.724mil) on Top Layer And Pad U7-2(215mil,374.724mil) on Top Layer [Top Solder] Mask Sliver [1.843mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\19202\Desktop\badgerloop\solar_car_hardware\mppt\mppt.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=222.17mil|Location2.X=233.42mil|Location1.Y=1347.383mil|Location2.Y=1358.633mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\19202\Desktop\badgerloop\solar_car_hardware\mppt\mppt.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=222.17mil|Location2.X=233.42mil|Location1.Y=1347.383mil|Location2.Y=1358.633mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (1.842mil &lt; 10mil) Between Pad U7-2(215mil,374.724mil) on Top Layer And Pad U7-3(240.59mil,374.724mil) on Top Layer [Top Solder] Mask Sliver [1.842mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\19202\Desktop\badgerloop\solar_car_hardware\mppt\mppt.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3808.375mil|Location2.X=3819.625mil|Location1.Y=2232.702mil|Location2.Y=2243.952mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\19202\Desktop\badgerloop\solar_car_hardware\mppt\mppt.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3808.375mil|Location2.X=3819.625mil|Location1.Y=2232.702mil|Location2.Y=2243.952mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (6.764mil &lt; 10mil) Between Pad U8-1(3798.189mil,1191.575mil) on Top Layer And Pad U8-9(3873.189mil,1290mil) on Top Layer [Top Solder] Mask Sliver [6.764mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\19202\Desktop\badgerloop\solar_car_hardware\mppt\mppt.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3858.375mil|Location2.X=3869.625mil|Location1.Y=2232.702mil|Location2.Y=2243.952mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\19202\Desktop\badgerloop\solar_car_hardware\mppt\mppt.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3858.375mil|Location2.X=3869.625mil|Location1.Y=2232.702mil|Location2.Y=2243.952mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (6.764mil &lt; 10mil) Between Pad U8-2(3848.189mil,1191.575mil) on Top Layer And Pad U8-9(3873.189mil,1290mil) on Top Layer [Top Solder] Mask Sliver [6.764mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\19202\Desktop\badgerloop\solar_car_hardware\mppt\mppt.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3908.375mil|Location2.X=3919.625mil|Location1.Y=2232.702mil|Location2.Y=2243.952mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\19202\Desktop\badgerloop\solar_car_hardware\mppt\mppt.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3908.375mil|Location2.X=3919.625mil|Location1.Y=2232.702mil|Location2.Y=2243.952mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (6.764mil &lt; 10mil) Between Pad U8-3(3898.189mil,1191.575mil) on Top Layer And Pad U8-9(3873.189mil,1290mil) on Top Layer [Top Solder] Mask Sliver [6.764mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\19202\Desktop\badgerloop\solar_car_hardware\mppt\mppt.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3926.753mil|Location2.X=3938.003mil|Location1.Y=2232.702mil|Location2.Y=2243.952mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\19202\Desktop\badgerloop\solar_car_hardware\mppt\mppt.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3926.753mil|Location2.X=3938.003mil|Location1.Y=2232.702mil|Location2.Y=2243.952mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (6.764mil &lt; 10mil) Between Pad U8-4(3948.189mil,1191.575mil) on Top Layer And Pad U8-9(3873.189mil,1290mil) on Top Layer [Top Solder] Mask Sliver [6.764mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\19202\Desktop\badgerloop\solar_car_hardware\mppt\mppt.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3929.635mil|Location2.X=3940.885mil|Location1.Y=2336.048mil|Location2.Y=2347.298mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\19202\Desktop\badgerloop\solar_car_hardware\mppt\mppt.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3929.635mil|Location2.X=3940.885mil|Location1.Y=2336.048mil|Location2.Y=2347.298mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (6.764mil &lt; 10mil) Between Pad U8-5(3948.189mil,1388.425mil) on Top Layer And Pad U8-9(3873.189mil,1290mil) on Top Layer [Top Solder] Mask Sliver [6.764mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\19202\Desktop\badgerloop\solar_car_hardware\mppt\mppt.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3908.375mil|Location2.X=3919.625mil|Location1.Y=2336.048mil|Location2.Y=2347.298mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\19202\Desktop\badgerloop\solar_car_hardware\mppt\mppt.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3908.375mil|Location2.X=3919.625mil|Location1.Y=2336.048mil|Location2.Y=2347.298mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (6.764mil &lt; 10mil) Between Pad U8-6(3898.189mil,1388.425mil) on Top Layer And Pad U8-9(3873.189mil,1290mil) on Top Layer [Top Solder] Mask Sliver [6.764mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\19202\Desktop\badgerloop\solar_car_hardware\mppt\mppt.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3858.375mil|Location2.X=3869.625mil|Location1.Y=2336.048mil|Location2.Y=2347.298mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\19202\Desktop\badgerloop\solar_car_hardware\mppt\mppt.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3858.375mil|Location2.X=3869.625mil|Location1.Y=2336.048mil|Location2.Y=2347.298mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (6.764mil &lt; 10mil) Between Pad U8-7(3848.189mil,1388.425mil) on Top Layer And Pad U8-9(3873.189mil,1290mil) on Top Layer [Top Solder] Mask Sliver [6.764mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\19202\Desktop\badgerloop\solar_car_hardware\mppt\mppt.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3808.375mil|Location2.X=3819.625mil|Location1.Y=2336.048mil|Location2.Y=2347.298mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\19202\Desktop\badgerloop\solar_car_hardware\mppt\mppt.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3808.375mil|Location2.X=3819.625mil|Location1.Y=2336.048mil|Location2.Y=2347.298mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (6.764mil &lt; 10mil) Between Pad U8-8(3798.189mil,1388.425mil) on Top Layer And Pad U8-9(3873.189mil,1290mil) on Top Layer [Top Solder] Mask Sliver [6.764mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\19202\Desktop\badgerloop\solar_car_hardware\mppt\mppt.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5530.186mil|Location2.X=5541.436mil|Location1.Y=2232.702mil|Location2.Y=2243.952mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\19202\Desktop\badgerloop\solar_car_hardware\mppt\mppt.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5530.186mil|Location2.X=5541.436mil|Location1.Y=2232.702mil|Location2.Y=2243.952mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (6.764mil &lt; 10mil) Between Pad U9-1(5520mil,1191.575mil) on Top Layer And Pad U9-9(5595mil,1290mil) on Top Layer [Top Solder] Mask Sliver [6.764mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\19202\Desktop\badgerloop\solar_car_hardware\mppt\mppt.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5580.186mil|Location2.X=5591.436mil|Location1.Y=2232.702mil|Location2.Y=2243.952mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\19202\Desktop\badgerloop\solar_car_hardware\mppt\mppt.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5580.186mil|Location2.X=5591.436mil|Location1.Y=2232.702mil|Location2.Y=2243.952mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (6.764mil &lt; 10mil) Between Pad U9-2(5570mil,1191.575mil) on Top Layer And Pad U9-9(5595mil,1290mil) on Top Layer [Top Solder] Mask Sliver [6.764mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\19202\Desktop\badgerloop\solar_car_hardware\mppt\mppt.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5630.186mil|Location2.X=5641.436mil|Location1.Y=2232.702mil|Location2.Y=2243.952mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\19202\Desktop\badgerloop\solar_car_hardware\mppt\mppt.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5630.186mil|Location2.X=5641.436mil|Location1.Y=2232.702mil|Location2.Y=2243.952mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (6.764mil &lt; 10mil) Between Pad U9-3(5620mil,1191.575mil) on Top Layer And Pad U9-9(5595mil,1290mil) on Top Layer [Top Solder] Mask Sliver [6.764mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\19202\Desktop\badgerloop\solar_car_hardware\mppt\mppt.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5648.564mil|Location2.X=5659.814mil|Location1.Y=2232.702mil|Location2.Y=2243.952mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\19202\Desktop\badgerloop\solar_car_hardware\mppt\mppt.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5648.564mil|Location2.X=5659.814mil|Location1.Y=2232.702mil|Location2.Y=2243.952mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (6.764mil &lt; 10mil) Between Pad U9-4(5670mil,1191.575mil) on Top Layer And Pad U9-9(5595mil,1290mil) on Top Layer [Top Solder] Mask Sliver [6.764mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\19202\Desktop\badgerloop\solar_car_hardware\mppt\mppt.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5651.446mil|Location2.X=5662.696mil|Location1.Y=2336.048mil|Location2.Y=2347.298mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\19202\Desktop\badgerloop\solar_car_hardware\mppt\mppt.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5651.446mil|Location2.X=5662.696mil|Location1.Y=2336.048mil|Location2.Y=2347.298mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (6.764mil &lt; 10mil) Between Pad U9-5(5670mil,1388.425mil) on Top Layer And Pad U9-9(5595mil,1290mil) on Top Layer [Top Solder] Mask Sliver [6.764mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\19202\Desktop\badgerloop\solar_car_hardware\mppt\mppt.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5630.186mil|Location2.X=5641.436mil|Location1.Y=2336.048mil|Location2.Y=2347.298mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\19202\Desktop\badgerloop\solar_car_hardware\mppt\mppt.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5630.186mil|Location2.X=5641.436mil|Location1.Y=2336.048mil|Location2.Y=2347.298mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (6.764mil &lt; 10mil) Between Pad U9-6(5620mil,1388.425mil) on Top Layer And Pad U9-9(5595mil,1290mil) on Top Layer [Top Solder] Mask Sliver [6.764mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\19202\Desktop\badgerloop\solar_car_hardware\mppt\mppt.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5580.186mil|Location2.X=5591.436mil|Location1.Y=2336.048mil|Location2.Y=2347.298mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\19202\Desktop\badgerloop\solar_car_hardware\mppt\mppt.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5580.186mil|Location2.X=5591.436mil|Location1.Y=2336.048mil|Location2.Y=2347.298mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (6.764mil &lt; 10mil) Between Pad U9-7(5570mil,1388.425mil) on Top Layer And Pad U9-9(5595mil,1290mil) on Top Layer [Top Solder] Mask Sliver [6.764mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\19202\Desktop\badgerloop\solar_car_hardware\mppt\mppt.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5530.186mil|Location2.X=5541.436mil|Location1.Y=2336.048mil|Location2.Y=2347.298mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\19202\Desktop\badgerloop\solar_car_hardware\mppt\mppt.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5530.186mil|Location2.X=5541.436mil|Location1.Y=2336.048mil|Location2.Y=2347.298mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (6.764mil &lt; 10mil) Between Pad U9-8(5520mil,1388.425mil) on Top Layer And Pad U9-9(5595mil,1290mil) on Top Layer [Top Solder] Mask Sliver [6.764mil]</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br></body>
+</html>
