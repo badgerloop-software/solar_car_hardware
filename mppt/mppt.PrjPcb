@@ -31,7 +31,7 @@ ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
 IsProjectConflictPreventionWarningsEnabled=0
-OutputPath=
+OutputPath=Project Outputs for mppt
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -441,6 +441,74 @@ DocumentUniqueId=
 DocumentPath=Project Outputs for mppt\Design Rule Check - mppt.html
 DItemRevisionGUID=
 
+[GeneratedDocument2]
+DocumentPath=Gerber\mppt.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=Gerber\mppt.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=Gerber\mppt.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=Gerber\mppt.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=Gerber\mppt.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=Gerber\mppt.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=Gerber\mppt.GM4
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=Gerber\mppt.GP1
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=Gerber\mppt.GP2
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=Gerber\mppt.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=Gerber\mppt.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=Gerber\mppt.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=Gerber\mppt.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=Gerber\mppt.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=Gerber\mppt.REP
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=Gerber\mppt.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=Gerber\mppt.TXT
+DItemRevisionGUID=
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
@@ -452,7 +520,7 @@ ContentTypeGUID=CB6F2064-E317-11DF-B822-12313F0024A2
 ConfigurationType=Source
 
 [Generic_EDE]
-OutputDir=
+OutputDir=Project Outputs for mppt
 
 [OutputGroup1]
 Name=Netlist Outputs
