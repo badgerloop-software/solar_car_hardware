@@ -2,6 +2,55 @@
 FileName = mppt.GBR
 AutoAperture = True
 *************************************************************
+Generating : Mechanical 4
+      File : mppt.GM4
+
+    Adding Layer      : Mechanical 4
+
+    Adding Layer      : Mechanical 4
+
+
+Used DCodes :
+    D12
+    D15
+    D17
+*************************************************************
+
+*************************************************************
+Generating : Bottom Overlay
+      File : mppt.GBO
+
+    Adding Layer      : Bottom Overlay
+
+    Adding Layer      : Mechanical 4
+
+
+Used DCodes :
+    D12
+    D15
+    D17
+*************************************************************
+
+*************************************************************
+Generating : Bottom Paste
+      File : mppt.GBP
+
+    Adding Layer      : Bottom Paste
+
+    Adding Layer      : Mechanical 4
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D12
+    D15
+    D17
+*************************************************************
+
+*************************************************************
 Generating : Bottom Solder
       File : mppt.GBS
 
@@ -156,6 +205,41 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
+Generating : Bottom Layer
+      File : mppt.GBL
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Mechanical 4
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D12
+    D15
+    D17
+    D24
+    D80
+    D83
+    D85
+    D86
+    D87
+    D88
+    D89
+    D90
+    D91
+    D92
+    D93
+    D94
+    D95
+    D96
+    D97
+    D98
+    D99
+*************************************************************
+
+*************************************************************
 Generating : Layer 2
       File : mppt.GP2
 
@@ -268,90 +352,6 @@ Used DCodes :
     D82
     D83
     D84
-    D85
-    D86
-    D87
-    D88
-    D89
-    D90
-    D91
-    D92
-    D93
-    D94
-    D95
-    D96
-    D97
-    D98
-    D99
-*************************************************************
-
-*************************************************************
-Generating : Mechanical 4
-      File : mppt.GM4
-
-    Adding Layer      : Mechanical 4
-
-    Adding Layer      : Mechanical 4
-
-
-Used DCodes :
-    D12
-    D15
-    D17
-*************************************************************
-
-*************************************************************
-Generating : Bottom Overlay
-      File : mppt.GBO
-
-    Adding Layer      : Bottom Overlay
-
-    Adding Layer      : Mechanical 4
-
-
-Used DCodes :
-    D12
-    D15
-    D17
-*************************************************************
-
-*************************************************************
-Generating : Bottom Paste
-      File : mppt.GBP
-
-    Adding Layer      : Bottom Paste
-
-    Adding Layer      : Mechanical 4
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D12
-    D15
-    D17
-*************************************************************
-
-*************************************************************
-Generating : Bottom Layer
-      File : mppt.GBL
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Mechanical 4
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D12
-    D15
-    D17
-    D24
-    D82
-    D83
     D85
     D86
     D87

@@ -1,5 +1,5 @@
 ----------------------------------------------------------------------------------------------------------------------------------
-NCDrill File Report For: mppt.PcbDoc   1/4/2022  10:44:26 AM
+NCDrill File Report For: mppt.PcbDoc   1/11/2022  8:54:24 PM
 ----------------------------------------------------------------------------------------------------------------------------------
 
 Layer Pair : Top Layer to Bottom Layer
@@ -7,7 +7,7 @@ ASCII RoundHoles File : mppt.TXT
 
 Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
 ----------------------------------------------------------------------------------------------------------------------------------
-T1      15mil (0.381mm)                                           Round             129       PTH        46.52inch (1181.50mm)
+T1      15mil (0.381mm)                                           Round             129       PTH        46.50inch (1181.11mm)
 T2      32mil (0.8mm)                                             Round             12        PTH        8.27inch (210.09mm)
 T3      33mil (0.838mm)                                           Round             12        PTH        3.77inch (95.66mm)
 T4      39mil (1mm)                                               Round             34        PTH        21.46inch (545.16mm)
@@ -22,4 +22,4 @@ T12     116mil (2.946mm)                                          Round         
 ----------------------------------------------------------------------------------------------------------------------------------
 Totals                                                                              260
 
-Total Processing Time (hh:mm:ss) : 00:00:01
+Total Processing Time (hh:mm:ss) : 00:00:00
