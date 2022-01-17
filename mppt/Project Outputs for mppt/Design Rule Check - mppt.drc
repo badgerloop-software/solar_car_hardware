@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\19202\Desktop\badgerloop\solar_car_hardware\mppt\mppt.PcbDoc
-Date     : 1/1/2022
-Time     : 2:15:36 PM
+Date     : 1/16/2022
+Time     : 9:19:20 PM
 
 Processing Rule : Clearance Constraint (Gap=24mil) (InNetClass('HV_115V')),(NOT InNetClass('HV_115V'))
 Rule Violations :0

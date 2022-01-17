@@ -1,5 +1,5 @@
 ----------------------------------------------------------------------------------------------------------------------------------
-NCDrill File Report For: mppt.PcbDoc   1/11/2022  8:54:24 PM
+NCDrill File Report For: mppt.PcbDoc   1/16/2022  9:26:17 PM
 ----------------------------------------------------------------------------------------------------------------------------------
 
 Layer Pair : Top Layer to Bottom Layer
@@ -7,7 +7,7 @@ ASCII RoundHoles File : mppt.TXT
 
 Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
 ----------------------------------------------------------------------------------------------------------------------------------
-T1      15mil (0.381mm)                                           Round             129       PTH        46.50inch (1181.11mm)
+T1      15mil (0.381mm)                                           Round             132       PTH        46.27inch (1175.26mm)
 T2      32mil (0.8mm)                                             Round             12        PTH        8.27inch (210.09mm)
 T3      33mil (0.838mm)                                           Round             12        PTH        3.77inch (95.66mm)
 T4      39mil (1mm)                                               Round             34        PTH        21.46inch (545.16mm)
@@ -20,6 +20,6 @@ T10     118mil (2.997mm)                                          Round         
 T11     125mil (3.175mm)                                          Round             8         PTH        11.52inch (292.72mm)
 T12     116mil (2.946mm)                                          Round             4         NPTH       16.96inch (430.91mm)
 ----------------------------------------------------------------------------------------------------------------------------------
-Totals                                                                              260
+Totals                                                                              263
 
 Total Processing Time (hh:mm:ss) : 00:00:00
