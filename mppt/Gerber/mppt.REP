@@ -2,29 +2,12 @@
 FileName = mppt.GBR
 AutoAperture = True
 *************************************************************
-Generating : Bottom Overlay
-      File : mppt.GBO
+Generating : Layer 1
+      File : mppt.GP1
 
-    Adding Layer      : Bottom Overlay
-
-    Adding Layer      : Mechanical 4
-
-
-Used DCodes :
-    D12
-    D15
-    D17
-*************************************************************
-
-*************************************************************
-Generating : Bottom Paste
-      File : mppt.GBP
-
-    Adding Layer      : Bottom Paste
+    Adding Layer      : Layer 1
 
     Adding Layer      : Mechanical 4
-
-    Adding Layer      : Bottom Layer
 
     Adding Layer      : Multi-Layer
 
@@ -33,6 +16,58 @@ Used DCodes :
     D12
     D15
     D17
+    D67
+    D72
+    D99
+    D100
+    D101
+    D102
+    D103
+    D104
+    D105
+    D106
+    D107
+    D108
+    D109
+    D110
+    D111
+    D112
+    D113
+    D114
+    D115
+    D116
+*************************************************************
+
+*************************************************************
+Generating : Layer 2
+      File : mppt.GP2
+
+    Adding Layer      : Layer 2
+
+    Adding Layer      : Mechanical 4
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D12
+    D15
+    D17
+    D67
+    D72
+    D99
+    D100
+    D101
+    D104
+    D106
+    D107
+    D108
+    D109
+    D111
+    D114
+    D115
+    D116
+    D117
 *************************************************************
 
 *************************************************************
@@ -71,18 +106,80 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Mechanical 4
-      File : mppt.GM4
+Generating : Top Overlay
+      File : mppt.GTO
+
+    Adding Layer      : Top Overlay
 
     Adding Layer      : Mechanical 4
 
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+    D14
+    D15
+    D16
+    D17
+*************************************************************
+
+*************************************************************
+Generating : Top Solder
+      File : mppt.GTS
+
+    Adding Layer      : Top Solder
+
     Adding Layer      : Mechanical 4
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
 
 
 Used DCodes :
     D12
     D15
     D17
+    D41
+    D42
+    D43
+    D44
+    D45
+    D46
+    D47
+    D48
+    D49
+    D50
+    D51
+    D52
+    D53
+    D54
+    D55
+    D56
+    D57
+    D58
+    D59
+    D60
+    D61
+    D62
+    D63
+    D64
+    D65
+    D66
+    D67
+    D68
+    D69
+    D70
+    D71
+    D72
+    D73
+    D74
+    D75
+    D76
+    D77
+    D78
 *************************************************************
 
 *************************************************************
@@ -147,47 +244,25 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Layer 1
-      File : mppt.GP1
+Generating : Bottom Overlay
+      File : mppt.GBO
 
-    Adding Layer      : Layer 1
+    Adding Layer      : Bottom Overlay
 
     Adding Layer      : Mechanical 4
-
-    Adding Layer      : Multi-Layer
 
 
 Used DCodes :
     D12
     D15
     D17
-    D67
-    D72
-    D99
-    D100
-    D101
-    D102
-    D103
-    D104
-    D105
-    D106
-    D107
-    D108
-    D109
-    D110
-    D111
-    D112
-    D113
-    D114
-    D115
-    D116
 *************************************************************
 
 *************************************************************
-Generating : Bottom Solder
-      File : mppt.GBS
+Generating : Bottom Paste
+      File : mppt.GBP
 
-    Adding Layer      : Bottom Solder
+    Adding Layer      : Bottom Paste
 
     Adding Layer      : Mechanical 4
 
@@ -199,74 +274,6 @@ Generating : Bottom Solder
 Used DCodes :
     D12
     D15
-    D17
-    D50
-    D64
-    D65
-    D66
-    D67
-    D68
-    D69
-    D70
-    D71
-    D72
-    D73
-    D74
-    D75
-    D76
-    D77
-    D78
-*************************************************************
-
-*************************************************************
-Generating : Layer 2
-      File : mppt.GP2
-
-    Adding Layer      : Layer 2
-
-    Adding Layer      : Mechanical 4
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D12
-    D15
-    D17
-    D67
-    D72
-    D99
-    D100
-    D101
-    D104
-    D106
-    D107
-    D108
-    D109
-    D111
-    D114
-    D115
-    D116
-    D117
-*************************************************************
-
-*************************************************************
-Generating : Top Overlay
-      File : mppt.GTO
-
-    Adding Layer      : Top Overlay
-
-    Adding Layer      : Mechanical 4
-
-
-Used DCodes :
-    D10
-    D11
-    D12
-    D13
-    D14
-    D15
-    D16
     D17
 *************************************************************
 
@@ -313,14 +320,14 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Top Solder
-      File : mppt.GTS
+Generating : Bottom Solder
+      File : mppt.GBS
 
-    Adding Layer      : Top Solder
+    Adding Layer      : Bottom Solder
 
     Adding Layer      : Mechanical 4
 
-    Adding Layer      : Top Layer
+    Adding Layer      : Bottom Layer
 
     Adding Layer      : Multi-Layer
 
@@ -329,29 +336,7 @@ Used DCodes :
     D12
     D15
     D17
-    D41
-    D42
-    D43
-    D44
-    D45
-    D46
-    D47
-    D48
-    D49
     D50
-    D51
-    D52
-    D53
-    D54
-    D55
-    D56
-    D57
-    D58
-    D59
-    D60
-    D61
-    D62
-    D63
     D64
     D65
     D66
@@ -367,5 +352,20 @@ Used DCodes :
     D76
     D77
     D78
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 4
+      File : mppt.GM4
+
+    Adding Layer      : Mechanical 4
+
+    Adding Layer      : Mechanical 4
+
+
+Used DCodes :
+    D12
+    D15
+    D17
 *************************************************************
 
