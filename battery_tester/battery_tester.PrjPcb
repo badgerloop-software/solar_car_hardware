@@ -48,12 +48,12 @@ PrefsRevisionGUID=
 
 [Document1]
 DocumentPath=battery_tester.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=0
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -64,40 +64,6 @@ GenerateClassCluster=0
 DocumentUniqueId=YKQPVHWL
 
 [Document2]
-DocumentPath=tester.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=VZRYXDJE
-
-[Document3]
-DocumentPath=controller.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=QZQCSOVL
-
-[Document4]
 DocumentPath=..\libraries\capacitors.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -114,7 +80,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document5]
+[Document3]
 DocumentPath=..\libraries\capacitors.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -131,7 +97,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document6]
+[Document4]
 DocumentPath=..\libraries\connector.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -148,7 +114,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document7]
+[Document5]
 DocumentPath=..\libraries\connector.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -165,7 +131,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document8]
+[Document6]
 DocumentPath=..\libraries\ic.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -182,7 +148,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document9]
+[Document7]
 DocumentPath=..\libraries\ic.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -199,7 +165,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=VVMLXTJM
 
-[Document10]
+[Document8]
 DocumentPath=..\libraries\inductor.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -216,7 +182,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document11]
+[Document9]
 DocumentPath=..\libraries\inductor.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -233,7 +199,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document12]
+[Document10]
 DocumentPath=..\libraries\misc.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -250,7 +216,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=JBDFWHSJ
 
-[Document13]
+[Document11]
 DocumentPath=..\libraries\misc.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -267,7 +233,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=DCGEBBGI
 
-[Document14]
+[Document12]
 DocumentPath=..\libraries\resistors.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -284,7 +250,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=DRGUQPRU
 
-[Document15]
+[Document13]
 DocumentPath=..\libraries\resistors.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -300,6 +266,57 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
+
+[Document14]
+DocumentPath=current_cntrl.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=VZRYXDJE
+
+[Document15]
+DocumentPath=digital_io.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=2
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=QZQCSOVL
+
+[Document16]
+DocumentPath=Tester.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=CWMCMUEK
 
 [Configuration1]
 Name=Sources
@@ -420,7 +437,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=HP3B100E (HP DeskJet 3700 series)
+TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
