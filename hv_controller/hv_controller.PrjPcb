@@ -330,23 +330,6 @@ GenerateClassCluster=0
 DocumentUniqueId=NHOVWMUS
 
 [Document18]
-DocumentPath=contactors.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=3
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=TBGQMLOR
-
-[Document19]
 DocumentPath=connectors.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -363,7 +346,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=RGHEIMSN
 
-[Document20]
+[Document19]
 DocumentPath=motor_controller_relays.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -380,7 +363,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=QYTLEMOP
 
-[Document21]
+[Document20]
 DocumentPath=mppt_relays.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -396,6 +379,23 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=BMLDCKXJ
+
+[Document21]
+DocumentPath=main_power_switch.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=FDXDBPVS
 
 [Configuration1]
 Name=Sources

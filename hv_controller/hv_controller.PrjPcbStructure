@@ -1,7 +1,7 @@
 Record=TopLevelDocument|FileName=connectors.SchDoc|SheetNumber=2
-Record=NoMainPathDocument|SourceDocument=connectors.SchDoc|FileName=contactors.SchDoc|SheetNumber=2
 Record=NoMainPathDocument|SourceDocument=connectors.SchDoc|FileName=dc_dc_converter.SchDoc|SheetNumber=2
 Record=NoMainPathDocument|SourceDocument=connectors.SchDoc|FileName=hv_controller.SchDoc|SheetNumber=1
+Record=NoMainPathDocument|SourceDocument=connectors.SchDoc|FileName=main_power_switch.SchDoc|SheetNumber= 
 Record=NoMainPathDocument|SourceDocument=connectors.SchDoc|FileName=motor_controller_relays.SchDoc|SheetNumber= 
 Record=NoMainPathDocument|SourceDocument=connectors.SchDoc|FileName=mppt_relays.SchDoc|SheetNumber= 
 Record=NoMainPathDocument|SourceDocument=connectors.SchDoc|FileName=power_path.SchDoc|SheetNumber=2
