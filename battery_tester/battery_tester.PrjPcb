@@ -302,7 +302,7 @@ GenerateClassCluster=0
 DocumentUniqueId=QZQCSOVL
 
 [Document16]
-DocumentPath=Tester.PcbDoc
+DocumentPath=battery_cell_tester.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -317,6 +317,14 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=CWMCMUEK
+
+[GeneratedDocument1]
+DocumentPath=Project Outputs for battery_tester\Design Rule Check - battery_cell_tester.html
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=Project Outputs for battery_tester\Design Rule Check - Tester.html
+DItemRevisionGUID=
 
 [Configuration1]
 Name=Sources
