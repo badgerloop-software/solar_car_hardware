@@ -341,7 +341,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=FDFXXWXR
 
 [Document19]
 DocumentPath=connectors.SchDoc
@@ -361,7 +361,7 @@ GenerateClassCluster=0
 DocumentUniqueId=RKMRQPRC
 
 [Document20]
-DocumentPath=Copy of Sheet1.SchDoc
+DocumentPath=Serial_Interface.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -375,7 +375,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=QOXLFJFE
 
 [Document21]
 DocumentPath=cover.SchDoc
@@ -477,7 +477,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=QVBXVDKU
 
 [Document27]
 DocumentPath=ext_light_interface_frontheadlight.SchDoc
@@ -494,7 +494,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=MCCRKEWY
 
 [Document28]
 DocumentPath=ext_light_interface_frontturn.SchDoc
@@ -511,7 +511,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=ZXETDKIN
 
 [Configuration1]
 Name=Sources
