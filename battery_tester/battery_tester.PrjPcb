@@ -180,7 +180,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=CHSULYVK
 
 [Document9]
 DocumentPath=..\libraries\inductor.SchLib
@@ -320,10 +320,6 @@ DocumentUniqueId=CWMCMUEK
 
 [GeneratedDocument1]
 DocumentPath=Project Outputs for battery_tester\Design Rule Check - battery_cell_tester.html
-DItemRevisionGUID=
-
-[GeneratedDocument2]
-DocumentPath=Project Outputs for battery_tester\Design Rule Check - Tester.html
 DItemRevisionGUID=
 
 [Configuration1]
