@@ -1,3 +1,4 @@
 Record=TopLevelDocument|FileName=battery_tester.SchDoc|SheetNumber=1
+Record=NoMainPathDocument|SourceDocument=battery_tester.SchDoc|FileName=charging.SchDoc|SheetNumber=4
 Record=NoMainPathDocument|SourceDocument=battery_tester.SchDoc|FileName=current_cntrl.SchDoc|SheetNumber=2
 Record=NoMainPathDocument|SourceDocument=battery_tester.SchDoc|FileName=digital_io.SchDoc|SheetNumber=3
