@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: C:\Users\Kevin\Documents\git_repos\solar_car_hardware\battery_tester\battery_cell_tester.PcbDoc
+LayersSetName=Top_Bot_Thru_Holes|DrillFile=battery_cell_tester.txt|DrillLayers=gtl,gbl
+LayersSetName=Top_Bot_Rect_Holes|DrillFile=battery_cell_tester-rectholes.txt|DrillLayers=gtl,gbl
