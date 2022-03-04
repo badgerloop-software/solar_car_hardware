@@ -9,7 +9,7 @@ Altium only works on Windows. See  [Altium System Requirements](https://www.alti
 2. Contact Lucas Maddox or Shelby Riggleman to be added to the [Badgerloop Team Account](https://dashboard.live.altium.com/) and the Badgerloop [Github](https://github.com/badgerloop-software"). You may continue to step to step 8 without requiring an active license. If there is a delay for some reason, you can work on Altium training and practice on CAE computers or through [Citrix](https://remote.engr.wisc.edu/vpn/index.html), but we are usually able to add new users within 24 hours. Badgerloop currently supports Altium 21.2.0. 
 3. Download the latest version of [Altium Designer](https://www.altium.com/products/downloads) 
 4. Install Altium. Default file paths will work.
-5. Install [Git Bash](https://gitforwindows.org/") Git Bash (or whatever BASH emulation tool you are comfortable with)
+5. Install [Git Bash](https://gitforwindows.org/) Git Bash (or whatever BASH emulation tool you are comfortable with)
 6. Open Git Bash
 7. Type the following commands into the command prompt window:
    + cd ../..
