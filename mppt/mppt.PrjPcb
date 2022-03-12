@@ -95,7 +95,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=TMXCPVXD
 
 [Document4]
 DocumentPath=..\libraries\capacitors.SchLib
@@ -129,7 +129,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=WMPOKWHJ
 
 [Document6]
 DocumentPath=..\libraries\connector.SchLib
@@ -163,7 +163,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=EGNUHWHV
 
 [Document8]
 DocumentPath=..\libraries\ic.SchLib
@@ -197,7 +197,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=CHSULYVK
 
 [Document10]
 DocumentPath=..\libraries\inductor.SchLib
@@ -231,7 +231,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=JBDFWHSJ
 
 [Document12]
 DocumentPath=..\libraries\misc.SchLib
@@ -302,6 +302,23 @@ GenerateClassCluster=0
 DocumentUniqueId=BHXVYFXA
 
 [Document16]
+DocumentPath=pwm_conditioning.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=BTDZUTZJ
+
+[Document17]
 DocumentPath=boost_converter_telem.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -318,7 +335,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=RRGKHFCM
 
-[Document17]
+[Document18]
 DocumentPath=Connectors.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -335,7 +352,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=WFVBIHCM
 
-[Document18]
+[Document19]
 DocumentPath=mppt.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -352,7 +369,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document19]
+[Document20]
 DocumentPath=POL_converter.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -369,7 +386,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=EAFNHSZP
 
-[Document20]
+[Document21]
 DocumentPath=Nucleo.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -386,7 +403,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=VZRYXDJE
 
-[Document21]
+[Document22]
 DocumentPath=solar_boost_strings.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -403,7 +420,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=RXTEYWNR
 
-[Document22]
+[Document23]
 DocumentPath=global_telem.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -420,7 +437,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ZPDBUENX
 
-[Document23]
+[Document24]
 DocumentPath=mppt.Annotation
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -635,7 +652,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Microsoft Print to PDF
+TargetPrinter=OneNote (Desktop)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
