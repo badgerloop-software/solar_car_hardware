@@ -1,2 +1,14 @@
-Record=TopLevelDocument|FileName=driver_io.SchDoc|SheetNumber=1
-Record=NoMainPathDocument|SourceDocument=driver_io.SchDoc|FileName=Sheet1.SchDoc|SheetNumber=2
+Record=TopLevelDocument|FileName=adc.SchDoc|SheetNumber=2
+Record=NoMainPathDocument|SourceDocument=adc.SchDoc|FileName=bus_filter.SchDoc|SheetNumber=2
+Record=NoMainPathDocument|SourceDocument=adc.SchDoc|FileName=connectors.SchDoc|SheetNumber=2
+Record=NoMainPathDocument|SourceDocument=adc.SchDoc|FileName=cover.SchDoc|SheetNumber=1
+Record=NoMainPathDocument|SourceDocument=adc.SchDoc|FileName=driver_io.SchDoc|SheetNumber=1
+Record=NoMainPathDocument|SourceDocument=adc.SchDoc|FileName=ext_light_interface_frontheadlight.SchDoc|SheetNumber=1
+Record=NoMainPathDocument|SourceDocument=adc.SchDoc|FileName=ext_light_interface_frontturn.SchDoc|SheetNumber=1
+Record=NoMainPathDocument|SourceDocument=adc.SchDoc|FileName=gpio.SchDoc|SheetNumber=1
+Record=NoMainPathDocument|SourceDocument=adc.SchDoc|FileName=MCU.SchDoc|SheetNumber=2
+Record=NoMainPathDocument|SourceDocument=adc.SchDoc|FileName=misc_sensors.SchDoc|SheetNumber=1
+Record=NoMainPathDocument|SourceDocument=adc.SchDoc|FileName=power_5v.SchDoc|SheetNumber=1
+Record=NoMainPathDocument|SourceDocument=adc.SchDoc|FileName=power_12v.SchDoc|SheetNumber=1
+Record=NoMainPathDocument|SourceDocument=adc.SchDoc|FileName=Serial_Interface.SchDoc|SheetNumber=1
+Record=NoMainPathDocument|SourceDocument=adc.SchDoc|FileName=Sheet1.SchDoc|SheetNumber=2
