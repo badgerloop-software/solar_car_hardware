@@ -513,6 +513,10 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ZXETDKIN
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for driver_io\Design Rule Check - driver_io.html
+DItemRevisionGUID=
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
