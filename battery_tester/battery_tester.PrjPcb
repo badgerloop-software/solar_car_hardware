@@ -80,7 +80,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=TMXCPVXD
 
 [Document3]
 DocumentPath=..\libraries\capacitors.SchLib
@@ -408,6 +408,10 @@ DItemRevisionGUID=
 
 [GeneratedDocument14]
 DocumentPath=Gerber\battery_cell_tester.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=Project Outputs for battery_tester\Design Rule Check - battery_cell_tester.html
 DItemRevisionGUID=
 
 [Configuration1]
