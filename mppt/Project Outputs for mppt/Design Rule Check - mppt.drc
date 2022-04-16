@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\19202\Desktop\badgerloop\git_repos\solar_car_hardware\mppt\mppt.PcbDoc
-Date     : 4/15/2022
-Time     : 10:28:44 AM
+Date     : 4/16/2022
+Time     : 5:06:26 PM
 
 Processing Rule : Clearance Constraint (Gap=24mil) (InNetClass('HV_60V')),((NOT InNetClass('HV_60V')) AND (NOT InNetClass('HV_115V')))
 Rule Violations :0
@@ -34,7 +34,6 @@ Processing Rule : Hole To Hole Clearance (Gap=10mil) (All),(All)
 Rule Violations :0
 
 Processing Rule : Minimum Solder Mask Sliver (Gap=10mil) (All),(All)
-   Violation between Minimum Solder Mask Sliver Constraint: (8.929mil < 10mil) Between Pad C51-2(1085mil,3182.401mil) on Top Layer And Via (1090mil,3235mil) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [8.929mil]
    Violation between Minimum Solder Mask Sliver Constraint: (7.748mil < 10mil) Between Pad D3-1(1210mil,4227.992mil) on Top Layer And Pad D3-2(1210mil,4102.008mil) on Top Layer [Top Solder] Mask Sliver [7.748mil]
    Violation between Minimum Solder Mask Sliver Constraint: (7.748mil < 10mil) Between Pad D4-1(2965mil,4220.984mil) on Top Layer And Pad D4-2(2965mil,4095mil) on Top Layer [Top Solder] Mask Sliver [7.748mil]
    Violation between Minimum Solder Mask Sliver Constraint: (7.748mil < 10mil) Between Pad D5-1(4595mil,4237.992mil) on Top Layer And Pad D5-2(4595mil,4112.008mil) on Top Layer [Top Solder] Mask Sliver [7.748mil]
@@ -70,7 +69,7 @@ Processing Rule : Minimum Solder Mask Sliver (Gap=10mil) (All),(All)
    Violation between Minimum Solder Mask Sliver Constraint: (5.78mil < 10mil) Between Pad U26-2(5749.055mil,160mil) on Bottom Layer And Pad U26-3(5749.055mil,122.598mil) on Bottom Layer [Bottom Solder] Mask Sliver [5.78mil]
    Violation between Minimum Solder Mask Sliver Constraint: (1.843mil < 10mil) Between Pad U7-1(164.724mil,1570.591mil) on Top Layer And Pad U7-2(164.724mil,1545mil) on Top Layer [Top Solder] Mask Sliver [1.843mil]
    Violation between Minimum Solder Mask Sliver Constraint: (1.842mil < 10mil) Between Pad U7-2(164.724mil,1545mil) on Top Layer And Pad U7-3(164.724mil,1519.409mil) on Top Layer [Top Solder] Mask Sliver [1.842mil]
-Rule Violations :36
+Rule Violations :35
 
 Processing Rule : Silk To Solder Mask (Clearance=0mil) (IsPad),(All)
 Rule Violations :0
@@ -112,6 +111,6 @@ Processing Rule : Height Constraint (Min=0mil) (Max=2000mil) (Prefered=500mil) (
 Rule Violations :0
 
 
-Violations Detected : 36
+Violations Detected : 35
 Waived Violations : 0
-Time Elapsed        : 00:00:03
+Time Elapsed        : 00:00:01
