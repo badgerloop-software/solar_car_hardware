@@ -1,4 +1,4 @@
-DRC Rules Export File for PCB: C:\Users\19202\Desktop\badgerloop\solar_car_hardware\mppt\mppt.PcbDoc
+DRC Rules Export File for PCB: C:\Users\19202\Desktop\badgerloop\git_repos\solar_car_hardware\mppt\mppt.PcbDoc
 RuleKind=Clearance|RuleName=HV_60V_Clearence|Scope=Board|Minimum=24.00
 RuleKind=Clearance|RuleName=HV_115V_Clearence|Scope=Board|Minimum=24.00
 RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=4.00
