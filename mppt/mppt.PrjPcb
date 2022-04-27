@@ -95,7 +95,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=TMXCPVXD
 
 [Document4]
 DocumentPath=..\libraries\capacitors.SchLib
@@ -129,7 +129,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=WMPOKWHJ
 
 [Document6]
 DocumentPath=..\libraries\connector.SchLib
@@ -163,7 +163,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=EGNUHWHV
 
 [Document8]
 DocumentPath=..\libraries\ic.SchLib
@@ -197,7 +197,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=CHSULYVK
 
 [Document10]
 DocumentPath=..\libraries\inductor.SchLib
@@ -231,7 +231,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=JBDFWHSJ
 
 [Document12]
 DocumentPath=..\libraries\misc.SchLib
@@ -265,7 +265,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=DRGUQPRU
 
 [Document14]
 DocumentPath=..\libraries\resistors.SchLib
@@ -302,6 +302,23 @@ GenerateClassCluster=0
 DocumentUniqueId=BHXVYFXA
 
 [Document16]
+DocumentPath=pwm_conditioning.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=8
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=BTDZUTZJ
+
+[Document17]
 DocumentPath=boost_converter_telem.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -318,7 +335,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=RRGKHFCM
 
-[Document17]
+[Document18]
 DocumentPath=Connectors.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -335,7 +352,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=WFVBIHCM
 
-[Document18]
+[Document19]
 DocumentPath=mppt.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -352,7 +369,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document19]
+[Document20]
 DocumentPath=POL_converter.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -369,7 +386,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=EAFNHSZP
 
-[Document20]
+[Document21]
 DocumentPath=Nucleo.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -386,7 +403,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=VZRYXDJE
 
-[Document21]
+[Document22]
 DocumentPath=solar_boost_strings.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -403,7 +420,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=RXTEYWNR
 
-[Document22]
+[Document23]
 DocumentPath=global_telem.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -420,7 +437,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ZPDBUENX
 
-[Document23]
+[Document24]
 DocumentPath=mppt.Annotation
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -436,6 +453,23 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
+
+[Document25]
+DocumentPath=overvoltage_detection.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=9
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=XMYBPKUC
 
 [GeneratedDocument1]
 DocumentPath=Project Outputs for mppt\BOM\Bill of Materials-mppt.xlsx
@@ -635,7 +669,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Microsoft Print to PDF
+TargetPrinter=OneNote (Desktop)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -1425,20 +1459,20 @@ MatchStrictly2=1
 PhysicalNamingFormat=$ComponentPrefix$GlobalIndex
 GlobalIndexSortOrder=3
 GlobalIndexSortLocation=0
-UniqueIDPath0=\ZHJYMNJF\KYMDQNOU\WJYVSMBT
-DocumentName0=boost_converter_telem.SchDoc
+UniqueIDPath0=\ZHJYMNJF
+DocumentName0=Nucleo.SchDoc
 IsEnabled0=1
 SelectionScope0=All
-Order0=15
+Order0=10
 IndexEnabled0=1
 IndexStartValue0=1
 Suffix0=
-UniqueIDPath1=\ZHJYMNJF
-DocumentName1=global_telem.SchDoc
+UniqueIDPath1=\ZHJYMNJF\YPGQFSZD\BOYIKARH
+DocumentName1=pwm_conditioning.SchDoc
 IsEnabled1=1
 SelectionScope1=All
-Order1=9
-IndexEnabled1=1
+Order1=21
+IndexEnabled1=0
 IndexStartValue1=1
 Suffix1=
 UniqueIDPath2=\ZHJYMNJF
@@ -1449,78 +1483,110 @@ Order2=12
 IndexEnabled2=1
 IndexStartValue2=1
 Suffix2=
-UniqueIDPath3=\ZHJYMNJF
-DocumentName3=Nucleo.SchDoc
+UniqueIDPath3=\ZHJYMNJF\YPGQFSZD
+DocumentName3=boost_converter.SchDoc
 IsEnabled3=1
 SelectionScope3=All
-Order3=10
+Order3=14
 IndexEnabled3=1
 IndexStartValue3=1
 Suffix3=
-UniqueIDPath4=\ZHJYMNJF\YPGQFSZD\WJYVSMBT
-DocumentName4=boost_converter_telem.SchDoc
+UniqueIDPath4=\ZHJYMNJF\KYMDQNOU\BOYIKARH
+DocumentName4=pwm_conditioning.SchDoc
 IsEnabled4=1
 SelectionScope4=All
-Order4=17
-IndexEnabled4=1
+Order4=19
+IndexEnabled4=0
 IndexStartValue4=1
 Suffix4=
-UniqueIDPath5=\ZHJYMNJF\OLQEEPZQ
-DocumentName5=boost_converter.SchDoc
+UniqueIDPath5=
+DocumentName5=cover.SchDoc
 IsEnabled5=1
 SelectionScope5=All
-Order5=13
+Order5=8
 IndexEnabled5=1
 IndexStartValue5=1
 Suffix5=
-UniqueIDPath6=\ZHJYMNJF\KYMDQNOU
-DocumentName6=boost_converter.SchDoc
+UniqueIDPath6=\ZHJYMNJF
+DocumentName6=POL_converter.SchDoc
 IsEnabled6=1
 SelectionScope6=All
-Order6=1
+Order6=11
 IndexEnabled6=1
 IndexStartValue6=1
 Suffix6=
-UniqueIDPath7=\ZHJYMNJF\YPGQFSZD
-DocumentName7=boost_converter.SchDoc
+UniqueIDPath7=\ZHJYMNJF\KYMDQNOU\WJYVSMBT
+DocumentName7=boost_converter_telem.SchDoc
 IsEnabled7=1
 SelectionScope7=All
-Order7=14
+Order7=15
 IndexEnabled7=1
 IndexStartValue7=1
 Suffix7=
-UniqueIDPath8=
-DocumentName8=cover.SchDoc
+UniqueIDPath8=\ZHJYMNJF\ZMHAJNYZ
+DocumentName8=overvoltage_detection.SchDoc
 IsEnabled8=1
 SelectionScope8=All
-Order8=8
-IndexEnabled8=1
+Order8=18
+IndexEnabled8=0
 IndexStartValue8=1
 Suffix8=
-UniqueIDPath9=\ZHJYMNJF\OLQEEPZQ\WJYVSMBT
-DocumentName9=boost_converter_telem.SchDoc
+UniqueIDPath9=\ZHJYMNJF\OLQEEPZQ\BOYIKARH
+DocumentName9=pwm_conditioning.SchDoc
 IsEnabled9=1
 SelectionScope9=All
-Order9=16
-IndexEnabled9=1
+Order9=20
+IndexEnabled9=0
 IndexStartValue9=1
 Suffix9=
 UniqueIDPath10=\ZHJYMNJF
-DocumentName10=Connectors.SchDoc
+DocumentName10=global_telem.SchDoc
 IsEnabled10=1
 SelectionScope10=All
-Order10=7
+Order10=9
 IndexEnabled10=1
 IndexStartValue10=1
 Suffix10=
-UniqueIDPath11=\ZHJYMNJF
-DocumentName11=POL_converter.SchDoc
+UniqueIDPath11=\ZHJYMNJF\YPGQFSZD\WJYVSMBT
+DocumentName11=boost_converter_telem.SchDoc
 IsEnabled11=1
 SelectionScope11=All
-Order11=11
+Order11=17
 IndexEnabled11=1
 IndexStartValue11=1
 Suffix11=
+UniqueIDPath12=\ZHJYMNJF
+DocumentName12=Connectors.SchDoc
+IsEnabled12=1
+SelectionScope12=All
+Order12=7
+IndexEnabled12=1
+IndexStartValue12=1
+Suffix12=
+UniqueIDPath13=\ZHJYMNJF\OLQEEPZQ
+DocumentName13=boost_converter.SchDoc
+IsEnabled13=1
+SelectionScope13=All
+Order13=13
+IndexEnabled13=1
+IndexStartValue13=1
+Suffix13=
+UniqueIDPath14=\ZHJYMNJF\KYMDQNOU
+DocumentName14=boost_converter.SchDoc
+IsEnabled14=1
+SelectionScope14=All
+Order14=1
+IndexEnabled14=1
+IndexStartValue14=1
+Suffix14=
+UniqueIDPath15=\ZHJYMNJF\OLQEEPZQ\WJYVSMBT
+DocumentName15=boost_converter_telem.SchDoc
+IsEnabled15=1
+SelectionScope15=All
+Order15=16
+IndexEnabled15=1
+IndexStartValue15=1
+Suffix15=
 
 [PrjClassGen]
 CompClassManualEnabled=0
