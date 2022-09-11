@@ -1,4 +1,4 @@
-DRC Rules Export File for PCB: D:\badgerloop\solar_car_hardware\hv_controller\hv_controller.PcbDoc
+DRC Rules Export File for PCB: C:\git\solar_car_hardware\hv_controller\hv_controller.PcbDoc
 RuleKind=Clearance|RuleName=Clearance_1|Scope=Board|Minimum=5.00
 RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=4.00
 RuleKind=Width|RuleName=Width|Scope=Board|Minimum=5.00
