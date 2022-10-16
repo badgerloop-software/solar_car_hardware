@@ -2,13 +2,105 @@
 FileName = hv_controller.GBR
 AutoAperture = True
 *************************************************************
-Generating : Mechanical 1
-      File : hv_controller.GM1
+Generating : Top Paste
+      File : hv_controller.GTP
 
-    Adding Layer      : Mechanical 1
+    Adding Layer      : Top Paste
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
 
 
 Used DCodes :
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+    D39
+    D40
+    D41
+*************************************************************
+
+*************************************************************
+Generating : Top Layer
+      File : hv_controller.GTL
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+    D39
+    D40
+    D41
+    D77
+    D78
+    D79
+    D80
+    D81
+    D82
+    D83
+    D84
+    D85
+    D86
+    D87
+    D88
+    D89
+    D90
+    D91
+    D92
+    D93
+    D94
+    D95
+    D96
+    D97
+    D98
+    D99
+    D100
+    D101
 *************************************************************
 
 *************************************************************
@@ -26,7 +118,6 @@ Used DCodes :
     D14
     D15
     D16
-    D17
 *************************************************************
 
 *************************************************************
@@ -40,41 +131,109 @@ Generating : Bottom Layer
 
 Used DCodes :
     D10
-    D29
-    D75
-    D76
+    D19
     D78
-    D82
-    D83
     D84
-    D85
     D86
-    D87
-    D88
-    D89
-    D90
-    D91
     D92
     D93
+    D94
+    D95
+    D96
+    D97
+    D98
+    D99
+    D100
+    D101
 *************************************************************
 
 *************************************************************
-Generating : Top Assembly
-      File : hv_controller.GM6
+Generating : Bottom Solder
+      File : hv_controller.GBS
 
-    Adding Layer      : Top Assembly
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
 
 
 Used DCodes :
-    D13
-    D94
+    D44
+    D67
+    D68
+    D69
+    D70
+    D71
+    D72
+    D73
+    D74
+    D75
+    D76
 *************************************************************
 
 *************************************************************
-Generating : Top 3D Body
-      File : hv_controller.GM8
+Generating : Bottom Overlay
+      File : hv_controller.GBO
 
-    Adding Layer      : Top 3D Body
+    Adding Layer      : Bottom Overlay
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Bottom Paste
+      File : hv_controller.GBP
+
+    Adding Layer      : Bottom Paste
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Keep-Out Layer
+      File : hv_controller.GKO
+
+    Adding Layer      : Keep-Out Layer
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 1
+      File : hv_controller.GM1
+
+    Adding Layer      : Mechanical 1
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Top Courtyard
+      File : hv_controller.GM2
+
+    Adding Layer      : Top Courtyard
+
+
+Used DCodes :
+    D10
+    D102
+    D103
+*************************************************************
+
+*************************************************************
+Generating : Bottom Courtyard
+      File : hv_controller.GM3
+
+    Adding Layer      : Bottom Courtyard
 
 
 Used DCodes :
@@ -91,17 +250,6 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Mechanical 13
-      File : hv_controller.GM13
-
-    Adding Layer      : Mechanical 13
-
-
-Used DCodes :
-    D94
-*************************************************************
-
-*************************************************************
 Generating : Bottom Component Center
       File : hv_controller.GM5
 
@@ -112,215 +260,35 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Mechanical 4
-      File : hv_controller.GM10
+Generating : Top Assembly
+      File : hv_controller.GM6
 
-    Adding Layer      : Mechanical 4
-
-
-Used DCodes :
-    D96
-*************************************************************
-
-*************************************************************
-Generating : Top Courtyard
-      File : hv_controller.GM2
-
-    Adding Layer      : Top Courtyard
+    Adding Layer      : Top Assembly
 
 
 Used DCodes :
-    D10
-    D94
-    D95
+    D14
+    D102
 *************************************************************
 
 *************************************************************
-Generating : Bottom Solder
-      File : hv_controller.GBS
+Generating : Bottom Assembly
+      File : hv_controller.GM7
 
-    Adding Layer      : Bottom Solder
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
+    Adding Layer      : Bottom Assembly
 
 
 Used DCodes :
-    D52
-    D64
-    D65
-    D66
-    D67
-    D68
-    D69
-    D70
-    D71
-    D72
-    D73
-    D74
 *************************************************************
 
 *************************************************************
-Generating : Top Paste
-      File : hv_controller.GTP
+Generating : Top 3D Body
+      File : hv_controller.GM8
 
-    Adding Layer      : Top Paste
-
-    Adding Layer      : Top Layer
-
-    Adding Layer      : Multi-Layer
+    Adding Layer      : Top 3D Body
 
 
 Used DCodes :
-    D18
-    D19
-    D20
-    D21
-    D22
-    D23
-    D24
-    D25
-    D26
-    D27
-    D28
-    D29
-    D30
-    D31
-    D32
-    D33
-    D34
-    D35
-    D36
-    D37
-    D38
-    D39
-    D40
-*************************************************************
-
-*************************************************************
-Generating : Top Pad Master
-      File : hv_controller.GPT
-
-    Adding Layer      : Top Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D18
-    D19
-    D20
-    D21
-    D22
-    D23
-    D24
-    D25
-    D26
-    D27
-    D28
-    D29
-    D30
-    D31
-    D32
-    D33
-    D34
-    D35
-    D36
-    D37
-    D38
-    D39
-    D40
-    D82
-    D83
-    D84
-    D85
-    D86
-    D87
-    D88
-    D89
-    D90
-    D91
-    D92
-*************************************************************
-
-*************************************************************
-Generating : Top Layer
-      File : hv_controller.GTL
-
-    Adding Layer      : Top Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D10
-    D13
-    D15
-    D18
-    D19
-    D20
-    D21
-    D22
-    D23
-    D24
-    D25
-    D26
-    D27
-    D28
-    D29
-    D30
-    D31
-    D32
-    D33
-    D34
-    D35
-    D36
-    D37
-    D38
-    D39
-    D40
-    D75
-    D76
-    D77
-    D78
-    D79
-    D80
-    D81
-    D82
-    D83
-    D84
-    D85
-    D86
-    D87
-    D88
-    D89
-    D90
-    D91
-    D92
-*************************************************************
-
-*************************************************************
-Generating : Bottom Pad Master
-      File : hv_controller.GPB
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D82
-    D83
-    D84
-    D85
-    D86
-    D87
-    D88
-    D89
-    D90
-    D91
-    D92
 *************************************************************
 
 *************************************************************
@@ -335,7 +303,6 @@ Generating : Top Solder
 
 
 Used DCodes :
-    D41
     D42
     D43
     D44
@@ -369,6 +336,70 @@ Used DCodes :
     D72
     D73
     D74
+    D75
+    D76
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 4
+      File : hv_controller.GM10
+
+    Adding Layer      : Mechanical 4
+
+
+Used DCodes :
+    D104
+*************************************************************
+
+*************************************************************
+Generating : Bottom 3D Body
+      File : hv_controller.GM9
+
+    Adding Layer      : Bottom 3D Body
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 13
+      File : hv_controller.GM13
+
+    Adding Layer      : Mechanical 13
+
+
+Used DCodes :
+    D102
+*************************************************************
+
+*************************************************************
+Generating : Dielectric 1
+      File : hv_controller.1
+
+    Adding Layer      : Dielectric 1
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Dielectric 3
+      File : hv_controller.3
+
+    Adding Layer      : Dielectric 3
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Dielectric 2
+      File : hv_controller.2
+
+    Adding Layer      : Dielectric 2
+
+
+Used DCodes :
 *************************************************************
 
 *************************************************************
@@ -379,35 +410,27 @@ Generating : Mechanical 15
 
 
 Used DCodes :
-    D94
-    D95
+    D102
+    D103
 *************************************************************
 
 *************************************************************
-Generating : Drill Drawing
-      File : hv_controller.GD1
+Generating : Multi-Layer
+      File : hv_controller.GML
 
-    Adding Drill Pair : Top Layer-Bottom Layer
-
-    Adding Layer      : Drill Drawing
+    Adding Layer      : Multi-Layer
 
 
 Used DCodes :
+    D92
+    D93
+    D94
+    D95
+    D96
     D97
     D98
     D99
-*************************************************************
-
-*************************************************************
-Generating : Drill Guide
-      File : hv_controller.GG1
-
-    Adding Drill Pair : Top Layer-Bottom Layer
-
-    Adding Layer      : Drill Guide
-
-
-Used DCodes :
-    D97
+    D100
+    D101
 *************************************************************
 
