@@ -10,3 +10,5 @@ ProjectPath=main_io\main_io.PrjPcb
 ProjectPath=hv_controller\hv_controller.PrjPcb
 [Project5]
 ProjectPath=array_breakout\array_breakout.PrjPcb
+[Project6]
+ProjectPath=mcc\mcc.PrjPcb
