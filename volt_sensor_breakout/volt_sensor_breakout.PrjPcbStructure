@@ -1,3 +1,4 @@
 Record=TopLevelDocument|FileName=connectors.SchDoc|SheetNumber=2
 Record=NoMainPathDocument|SourceDocument=connectors.SchDoc|FileName=ic_madness.SchDoc|SheetNumber=1
 Record=NoMainPathDocument|SourceDocument=connectors.SchDoc|FileName=mc_signals.SchDoc|SheetNumber=3
+Record=NoMainPathDocument|SourceDocument=connectors.SchDoc|FileName=mppt_signals.SchDoc|SheetNumber=4
