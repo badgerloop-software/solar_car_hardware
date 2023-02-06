@@ -1,2 +1,5 @@
-Record=TopLevelDocument|FileName=Sheet2.SchDoc|SheetNumber=2
-Record=NoMainPathDocument|SourceDocument=Sheet2.SchDoc|FileName=voltage_sensor_breakout.SchDoc|SheetNumber=1
+Record=TopLevelDocument|FileName=connectors.SchDoc|SheetNumber=2
+Record=NoMainPathDocument|SourceDocument=connectors.SchDoc|FileName=ic_madness.SchDoc|SheetNumber=1
+Record=NoMainPathDocument|SourceDocument=connectors.SchDoc|FileName=mc_signals.SchDoc|SheetNumber=3
+Record=NoMainPathDocument|SourceDocument=connectors.SchDoc|FileName=mppt_signals.SchDoc|SheetNumber=4
+Record=NoMainPathDocument|SourceDocument=connectors.SchDoc|FileName=Sheet2.SchDoc|SheetNumber=2
