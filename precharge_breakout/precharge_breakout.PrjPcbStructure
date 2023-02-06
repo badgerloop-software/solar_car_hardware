@@ -1,0 +1,3 @@
+Record=TopLevelDocument|FileName=connectors.SchDoc|SheetNumber=3
+Record=NoMainPathDocument|SourceDocument=connectors.SchDoc|FileName=mc_voltage_sensor.SchDoc|SheetNumber=1
+Record=NoMainPathDocument|SourceDocument=connectors.SchDoc|FileName=mppt_voltage_sensor.SchDoc|SheetNumber=2
