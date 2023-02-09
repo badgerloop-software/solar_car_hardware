@@ -1,0 +1,172 @@
+*************************************************************
+FileName = battery_bank-003.GBR
+AutoAperture = True
+*************************************************************
+Generating : Mechanical 4
+      File : battery_bank-003.GM4
+
+    Adding Layer      : Mechanical 4
+
+    Adding Layer      : Mechanical 4
+
+
+Used DCodes :
+    D11
+*************************************************************
+
+*************************************************************
+Generating : Bottom Overlay
+      File : battery_bank-003.GBO
+
+    Adding Layer      : Bottom Overlay
+
+    Adding Layer      : Mechanical 4
+
+
+Used DCodes :
+    D11
+*************************************************************
+
+*************************************************************
+Generating : Bottom Paste
+      File : battery_bank-003.GBP
+
+    Adding Layer      : Bottom Paste
+
+    Adding Layer      : Mechanical 4
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D11
+*************************************************************
+
+*************************************************************
+Generating : Bottom Solder
+      File : battery_bank-003.GBS
+
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : Mechanical 4
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D11
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+*************************************************************
+
+*************************************************************
+Generating : Top Solder
+      File : battery_bank-003.GTS
+
+    Adding Layer      : Top Solder
+
+    Adding Layer      : Mechanical 4
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D11
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+*************************************************************
+
+*************************************************************
+Generating : Top Paste
+      File : battery_bank-003.GTP
+
+    Adding Layer      : Top Paste
+
+    Adding Layer      : Mechanical 4
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D11
+*************************************************************
+
+*************************************************************
+Generating : Top Overlay
+      File : battery_bank-003.GTO
+
+    Adding Layer      : Top Overlay
+
+    Adding Layer      : Mechanical 4
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+    D14
+    D15
+    D16
+    D17
+*************************************************************
+
+*************************************************************
+Generating : Bottom Layer
+      File : battery_bank-003.GBL
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Mechanical 4
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D11
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+*************************************************************
+
+*************************************************************
+Generating : Top Layer
+      File : battery_bank-003.GTL
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Mechanical 4
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D11
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+*************************************************************
+
