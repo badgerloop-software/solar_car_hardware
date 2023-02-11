@@ -100,7 +100,7 @@ GenerateClassCluster=0
 DocumentUniqueId=EMGDMZUJ
 
 [Document4]
-DocumentPath=mc_signals.SchDoc
+DocumentPath=voltage_sense.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -117,7 +117,7 @@ GenerateClassCluster=0
 DocumentUniqueId=ZJASXMZO
 
 [Document5]
-DocumentPath=mppt_signals.SchDoc
+DocumentPath=latch.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
