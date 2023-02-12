@@ -184,6 +184,23 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=JLIYQAWP
 
+[Document9]
+DocumentPath=powerpath_controller.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=6
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=CJHNTGTK
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
