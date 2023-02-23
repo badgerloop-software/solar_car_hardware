@@ -66,23 +66,6 @@ GenerateClassCluster=0
 DocumentUniqueId=RPEMSNJX
 
 [Document2]
-DocumentPath=volt_sensor_breakout.OutJob
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document3]
 DocumentPath=connectors.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -99,7 +82,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=EMGDMZUJ
 
-[Document4]
+[Document3]
 DocumentPath=voltage_sense.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -116,7 +99,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ZJASXMZO
 
-[Document5]
+[Document4]
 DocumentPath=12V dc-dc converter.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -133,7 +116,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=MMHGARWQ
 
-[Document6]
+[Document5]
 DocumentPath=inverter.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -150,7 +133,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=KNNYEYYW
 
-[Document7]
+[Document6]
 DocumentPath=latch.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -167,7 +150,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=LUZXSGOM
 
-[Document8]
+[Document7]
 DocumentPath=volt_sensor.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -184,14 +167,14 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=JLIYQAWP
 
-[Document9]
-DocumentPath=powerpath_controller.SchDoc
+[Document8]
+DocumentPath=volt_sensor.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=6
+AnnotateOrder=-1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -199,7 +182,75 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=CJHNTGTK
+DocumentUniqueId=
+
+[GeneratedDocument1]
+DocumentPath=Gerber\Bill of Materials-volt_sensor_breakout.xlsx
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=Project Outputs for volt_sensor_breakout\Design Rule Check - volt_sensor.html
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=Gerber\volt_sensor.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=Gerber\volt_sensor.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=Gerber\volt_sensor.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=Gerber\volt_sensor.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=Gerber\volt_sensor.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=Gerber\volt_sensor.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=Gerber\volt_sensor.GM4
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=Gerber\volt_sensor.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=Gerber\volt_sensor.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=Gerber\volt_sensor.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=Gerber\volt_sensor.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=Gerber\volt_sensor.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=Gerber\volt_sensor.REP
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=Gerber\volt_sensor.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=Gerber\volt_sensor.TXT
+DItemRevisionGUID=
 
 [Configuration1]
 Name=Sources
