@@ -1,0 +1,20 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: volt_sensor.PcbDoc   2/13/2023  7:47:45 PM
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : volt_sensor.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      13mil (0.33mm)                                            Round             116       PTH        46.97inch (1193.08mm)
+T2      30mil (0.762mm)                                           Round             5         PTH        0.60inch (15.24mm)
+T3      39mil (1mm)                                               Round             62        PTH        27.10inch (688.40mm)
+T4      40mil (1.016mm)                                           Round             4         PTH        0.35inch (8.99mm)
+T5      40mil (1.02mm)                                            Round             30        PTH        3.90inch (99.06mm)
+T6      59mil (1.5mm)                                             Round             10        PTH        12.03inch (305.46mm)
+T7      118mil (2.997mm)                                          Round             1         PTH        0.00inch (0.00mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              228
+
+Total Processing Time (hh:mm:ss) : 00:00:00
