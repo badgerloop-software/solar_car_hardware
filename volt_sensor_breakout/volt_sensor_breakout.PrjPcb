@@ -25,14 +25,12 @@ NameNetsHierarchically=0
 PowerPortNamesTakePriority=0
 AutoSheetNumbering=1
 AutoCrossReferences=0
-NewIndexingOfSheetSymbols=0
 PushECOToAnnotationFile=1
 DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
 IsProjectConflictPreventionWarningsEnabled=0
-IsVirtualBomDocumentRemoved=0
 OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
@@ -151,7 +149,7 @@ GenerateClassCluster=0
 DocumentUniqueId=LUZXSGOM
 
 [Document7]
-DocumentPath=volt_sensor.PcbDoc
+DocumentPath=volt_sensor_breakout.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -168,7 +166,7 @@ GenerateClassCluster=0
 DocumentUniqueId=JLIYQAWP
 
 [Document8]
-DocumentPath=volt_sensor.OutJob
+DocumentPath=..\hv_controller\motor_controller_relays.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -182,74 +180,96 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=QYTLEMOP
+
+[Document9]
+DocumentPath=..\hv_controller\mppt_relays.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=BMLDCKXJ
+
+[Document10]
+DocumentPath=..\hv_controller\main_power_switch.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=FDXDBPVS
 
 [GeneratedDocument1]
-DocumentPath=Gerber\Bill of Materials-volt_sensor_breakout.xlsx
-DItemRevisionGUID=
-
-[GeneratedDocument2]
-DocumentPath=Project Outputs for volt_sensor_breakout\Design Rule Check - volt_sensor.html
-DItemRevisionGUID=
-
-[GeneratedDocument3]
 DocumentPath=Gerber\volt_sensor.DRR
 DItemRevisionGUID=
 
-[GeneratedDocument4]
+[GeneratedDocument2]
 DocumentPath=Gerber\volt_sensor.EXTREP
 DItemRevisionGUID=
 
-[GeneratedDocument5]
+[GeneratedDocument3]
 DocumentPath=Gerber\volt_sensor.GBL
 DItemRevisionGUID=
 
-[GeneratedDocument6]
+[GeneratedDocument4]
 DocumentPath=Gerber\volt_sensor.GBO
 DItemRevisionGUID=
 
-[GeneratedDocument7]
+[GeneratedDocument5]
 DocumentPath=Gerber\volt_sensor.GBP
 DItemRevisionGUID=
 
-[GeneratedDocument8]
+[GeneratedDocument6]
 DocumentPath=Gerber\volt_sensor.GBS
 DItemRevisionGUID=
 
-[GeneratedDocument9]
+[GeneratedDocument7]
 DocumentPath=Gerber\volt_sensor.GM4
 DItemRevisionGUID=
 
-[GeneratedDocument10]
+[GeneratedDocument8]
 DocumentPath=Gerber\volt_sensor.GTL
 DItemRevisionGUID=
 
-[GeneratedDocument11]
+[GeneratedDocument9]
 DocumentPath=Gerber\volt_sensor.GTO
 DItemRevisionGUID=
 
-[GeneratedDocument12]
+[GeneratedDocument10]
 DocumentPath=Gerber\volt_sensor.GTP
 DItemRevisionGUID=
 
-[GeneratedDocument13]
+[GeneratedDocument11]
 DocumentPath=Gerber\volt_sensor.GTS
 DItemRevisionGUID=
 
-[GeneratedDocument14]
+[GeneratedDocument12]
 DocumentPath=Gerber\volt_sensor.LDP
 DItemRevisionGUID=
 
-[GeneratedDocument15]
+[GeneratedDocument13]
 DocumentPath=Gerber\volt_sensor.REP
 DItemRevisionGUID=
 
-[GeneratedDocument16]
+[GeneratedDocument14]
 DocumentPath=Gerber\volt_sensor.RUL
-DItemRevisionGUID=
-
-[GeneratedDocument17]
-DocumentPath=Gerber\volt_sensor.TXT
 DItemRevisionGUID=
 
 [Configuration1]
@@ -410,7 +430,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Microsoft Print to PDF
+TargetPrinter=Canon E4500 series
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -486,18 +506,6 @@ OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
 PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType12=Harness Layout Drawing Print
-OutputName12=Harness Layout Drawing Prints
-OutputDocumentPath12=
-OutputVariantName12=
-OutputDefault12=0
-PageOptions12=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType13=Harness Wiring Diagram Print
-OutputName13=Harness Wiring Diagram Prints
-OutputDocumentPath13=
-OutputVariantName13=
-OutputDefault13=0
-PageOptions13=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 
 [OutputGroup4]
 Name=Assembly Outputs
@@ -866,11 +874,6 @@ OutputName11=Specctra Design PCB
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
-OutputType12=Web ReviewOutputName
-OutputName12=Web Review Data
-OutputDocumentPath12=
-OutputVariantName12=
-OutputDefault12=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
@@ -1194,13 +1197,12 @@ Type116=2
 Type117=3
 Type118=3
 Type119=3
+MultiChannelAlternate=2
 AlternateItemFail=3
 Type122=2
 Type123=1
 Type124=1
 Type125=1
-Type126=1
-Type127=1
 
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNWNNNWW
