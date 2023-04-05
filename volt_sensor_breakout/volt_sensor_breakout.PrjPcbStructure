@@ -3,9 +3,9 @@ Record=NoMainPathDocument|SourceDocument=12V dc-dc converter.SchDoc|FileName=con
 Record=NoMainPathDocument|SourceDocument=12V dc-dc converter.SchDoc|FileName=dc_dc_converter.SchDoc|SheetNumber=10
 Record=NoMainPathDocument|SourceDocument=12V dc-dc converter.SchDoc|FileName=digital.SchDoc|SheetNumber=1
 Record=NoMainPathDocument|SourceDocument=12V dc-dc converter.SchDoc|FileName=inverter.SchDoc|SheetNumber=5
-Record=NoMainPathDocument|SourceDocument=12V dc-dc converter.SchDoc|FileName=latch.SchDoc|SheetNumber=6
+Record=NoMainPathDocument|SourceDocument=12V dc-dc converter.SchDoc|FileName=latch.SchDoc|SheetNumber=7
 Record=NoMainPathDocument|SourceDocument=12V dc-dc converter.SchDoc|FileName=main_power_switch.SchDoc|SheetNumber=9
-Record=NoMainPathDocument|SourceDocument=12V dc-dc converter.SchDoc|FileName=motor_controller_relays.SchDoc|SheetNumber=7
+Record=NoMainPathDocument|SourceDocument=12V dc-dc converter.SchDoc|FileName=motor_controller_relays.SchDoc|SheetNumber=6
 Record=NoMainPathDocument|SourceDocument=12V dc-dc converter.SchDoc|FileName=mppt_relays.SchDoc|SheetNumber=8
 Record=NoMainPathDocument|SourceDocument=12V dc-dc converter.SchDoc|FileName=powerpath_controller.SchDoc|SheetNumber=11
 Record=NoMainPathDocument|SourceDocument=12V dc-dc converter.SchDoc|FileName=voltage_sense.SchDoc|SheetNumber=3
