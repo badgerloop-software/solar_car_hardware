@@ -25,14 +25,12 @@ NameNetsHierarchically=0
 PowerPortNamesTakePriority=0
 AutoSheetNumbering=1
 AutoCrossReferences=0
-NewIndexingOfSheetSymbols=0
 PushECOToAnnotationFile=1
 DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
 IsProjectConflictPreventionWarningsEnabled=0
-IsVirtualBomDocumentRemoved=0
 OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
@@ -491,167 +489,63 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [GeneratedDocument1]
-DocumentPath=Project Outputs for volt_sensor_breakout\Gerber\allies analyzer breakout.GM
-DItemRevisionGUID=
-
-[GeneratedDocument2]
 DocumentPath=Project Outputs for volt_sensor_breakout\Design Rule Check - volt_sensor_breakout.html
 DItemRevisionGUID=
 
-[GeneratedDocument3]
+[GeneratedDocument2]
 DocumentPath=Gerber\volt_sensor.DRR
 DItemRevisionGUID=
 
-[GeneratedDocument4]
+[GeneratedDocument3]
 DocumentPath=Gerber\volt_sensor.EXTREP
 DItemRevisionGUID=
 
-[GeneratedDocument5]
+[GeneratedDocument4]
 DocumentPath=Gerber\volt_sensor.GBL
 DItemRevisionGUID=
 
-[GeneratedDocument6]
+[GeneratedDocument5]
 DocumentPath=Gerber\volt_sensor.GBO
 DItemRevisionGUID=
 
-[GeneratedDocument7]
+[GeneratedDocument6]
 DocumentPath=Gerber\volt_sensor.GBP
 DItemRevisionGUID=
 
-[GeneratedDocument8]
+[GeneratedDocument7]
 DocumentPath=Gerber\volt_sensor.GBS
 DItemRevisionGUID=
 
-[GeneratedDocument9]
+[GeneratedDocument8]
 DocumentPath=Gerber\volt_sensor.GM4
 DItemRevisionGUID=
 
-[GeneratedDocument10]
+[GeneratedDocument9]
 DocumentPath=Gerber\volt_sensor.GTL
 DItemRevisionGUID=
 
-[GeneratedDocument11]
+[GeneratedDocument10]
 DocumentPath=Gerber\volt_sensor.GTO
 DItemRevisionGUID=
 
-[GeneratedDocument12]
+[GeneratedDocument11]
 DocumentPath=Gerber\volt_sensor.GTP
 DItemRevisionGUID=
 
-[GeneratedDocument13]
+[GeneratedDocument12]
 DocumentPath=Gerber\volt_sensor.GTS
 DItemRevisionGUID=
 
-[GeneratedDocument14]
+[GeneratedDocument13]
 DocumentPath=Gerber\volt_sensor.LDP
 DItemRevisionGUID=
 
-[GeneratedDocument15]
+[GeneratedDocument14]
 DocumentPath=Gerber\volt_sensor.REP
 DItemRevisionGUID=
 
-[GeneratedDocument16]
+[GeneratedDocument15]
 DocumentPath=Gerber\volt_sensor.RUL
-DItemRevisionGUID=
-
-[GeneratedDocument17]
-DocumentPath=Project Outputs for volt_sensor_breakout\NC Drill\volt_sensor_breakout.DRR
-DItemRevisionGUID=
-
-[GeneratedDocument18]
-DocumentPath=Project Outputs for volt_sensor_breakout\Gerber\volt_sensor_breakout.EXTREP
-DItemRevisionGUID=
-
-[GeneratedDocument19]
-DocumentPath=Project Outputs for volt_sensor_breakout\Gerber\volt_sensor_breakout.GBL
-DItemRevisionGUID=
-
-[GeneratedDocument20]
-DocumentPath=Project Outputs for volt_sensor_breakout\Gerber\volt_sensor_breakout.GBO
-DItemRevisionGUID=
-
-[GeneratedDocument21]
-DocumentPath=Project Outputs for volt_sensor_breakout\Gerber\volt_sensor_breakout.GBP
-DItemRevisionGUID=
-
-[GeneratedDocument22]
-DocumentPath=Project Outputs for volt_sensor_breakout\Gerber\volt_sensor_breakout.GBS
-DItemRevisionGUID=
-
-[GeneratedDocument23]
-DocumentPath=Project Outputs for volt_sensor_breakout\Gerber\volt_sensor_breakout.GD1
-DItemRevisionGUID=
-
-[GeneratedDocument24]
-DocumentPath=Project Outputs for volt_sensor_breakout\Gerber\volt_sensor_breakout.GG1
-DItemRevisionGUID=
-
-[GeneratedDocument25]
-DocumentPath=Project Outputs for volt_sensor_breakout\Gerber\volt_sensor_breakout.GKO
-DItemRevisionGUID=
-
-[GeneratedDocument26]
-DocumentPath=Project Outputs for volt_sensor_breakout\Gerber\volt_sensor_breakout.GM1
-DItemRevisionGUID=
-
-[GeneratedDocument27]
-DocumentPath=Project Outputs for volt_sensor_breakout\Gerber\volt_sensor_breakout.GM2
-DItemRevisionGUID=
-
-[GeneratedDocument28]
-DocumentPath=Project Outputs for volt_sensor_breakout\Gerber\volt_sensor_breakout.GM3
-DItemRevisionGUID=
-
-[GeneratedDocument29]
-DocumentPath=Project Outputs for volt_sensor_breakout\Gerber\volt_sensor_breakout.GM13
-DItemRevisionGUID=
-
-[GeneratedDocument30]
-DocumentPath=Project Outputs for volt_sensor_breakout\Gerber\volt_sensor_breakout.GM15
-DItemRevisionGUID=
-
-[GeneratedDocument31]
-DocumentPath=Project Outputs for volt_sensor_breakout\Gerber\volt_sensor_breakout.GM16
-DItemRevisionGUID=
-
-[GeneratedDocument32]
-DocumentPath=Project Outputs for volt_sensor_breakout\Gerber\volt_sensor_breakout.GPB
-DItemRevisionGUID=
-
-[GeneratedDocument33]
-DocumentPath=Project Outputs for volt_sensor_breakout\Gerber\volt_sensor_breakout.GPT
-DItemRevisionGUID=
-
-[GeneratedDocument34]
-DocumentPath=Project Outputs for volt_sensor_breakout\Gerber\volt_sensor_breakout.GTL
-DItemRevisionGUID=
-
-[GeneratedDocument35]
-DocumentPath=Project Outputs for volt_sensor_breakout\Gerber\volt_sensor_breakout.GTO
-DItemRevisionGUID=
-
-[GeneratedDocument36]
-DocumentPath=Project Outputs for volt_sensor_breakout\Gerber\volt_sensor_breakout.GTP
-DItemRevisionGUID=
-
-[GeneratedDocument37]
-DocumentPath=Project Outputs for volt_sensor_breakout\Gerber\volt_sensor_breakout.GTS
-DItemRevisionGUID=
-
-[GeneratedDocument38]
-DocumentPath=Project Outputs for volt_sensor_breakout\NC Drill\volt_sensor_breakout.LDP
-DItemRevisionGUID=
-
-[GeneratedDocument39]
-DocumentPath=Project Outputs for volt_sensor_breakout\Gerber\volt_sensor_breakout.REP
-DItemRevisionGUID=
-
-[GeneratedDocument40]
-DocumentPath=Project Outputs for volt_sensor_breakout\Gerber\volt_sensor_breakout.RUL
-DItemRevisionGUID=
-
-[GeneratedDocument41]
-DocumentPath=Project Outputs for volt_sensor_breakout\NC Drill\volt_sensor_breakout.TXT
 DItemRevisionGUID=
 
 [Configuration1]
@@ -888,18 +782,6 @@ OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
 PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType12=Harness Layout Drawing Print
-OutputName12=Harness Layout Drawing Prints
-OutputDocumentPath12=
-OutputVariantName12=
-OutputDefault12=0
-PageOptions12=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType13=Harness Wiring Diagram Print
-OutputName13=Harness Wiring Diagram Prints
-OutputDocumentPath13=
-OutputVariantName13=
-OutputDefault13=0
-PageOptions13=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 
 [OutputGroup4]
 Name=Assembly Outputs
@@ -1055,12 +937,6 @@ OutputName8=Report Single Pin Nets
 OutputDocumentPath8=
 OutputVariantName8=[No Variations]
 OutputDefault8=0
-OutputType9=Project History
-OutputName9=Project History
-OutputDocumentPath9=
-OutputVariantName9=[No Variations]
-OutputDefault9=0
-PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 
 [OutputGroup7]
 Name=Other Outputs
@@ -1274,11 +1150,6 @@ OutputName11=Specctra Design PCB
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
-OutputType12=Web ReviewOutputName
-OutputName12=Web Review Data
-OutputDocumentPath12=
-OutputVariantName12=
-OutputDefault12=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
@@ -1411,7 +1282,6 @@ Type116=1
 Type117=1
 Type118=1
 Type119=1
-Type120=1
 
 [Difference Levels]
 Type1=1
@@ -1603,13 +1473,12 @@ Type116=2
 Type117=3
 Type118=3
 Type119=3
+MultiChannelAlternate=2
 AlternateItemFail=3
 Type122=2
 Type123=1
 Type124=1
 Type125=1
-Type126=1
-Type127=1
 
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNWNNNWW
