@@ -11,6 +11,4 @@ ProjectPath=hv_controller\hv_controller.PrjPcb
 [Project5]
 ProjectPath=array_breakout\array_breakout.PrjPcb
 [Project6]
-ProjectPath=mcc\mcc.PrjPcb
-[Project7]
-ProjectPath=..\..\MCC Rev B Design\mcc_revb\mcc_revB.PrjPcb
+ProjectPath=mcc\mcc_revB.PrjPcb
