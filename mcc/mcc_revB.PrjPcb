@@ -388,8 +388,141 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[Document21]
+DocumentPath=revb_gerbers.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [GeneratedDocument1]
 DocumentPath=Project Outputs for mcc_revB\Design Rule Check - mcc.html
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=Gerber\mcc.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=Project Outputs for Free Documents\NC Drill\mcc.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=Gerber\mcc.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=Project Outputs for Free Documents\Gerber\mcc.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=Gerber\mcc.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=Project Outputs for Free Documents\Gerber\mcc.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=Gerber\mcc.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=Project Outputs for Free Documents\Gerber\mcc.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=Gerber\mcc.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=Project Outputs for Free Documents\Gerber\mcc.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=Gerber\mcc.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=Project Outputs for Free Documents\Gerber\mcc.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=Project Outputs for Free Documents\Gerber\mcc.GM1
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=Gerber\mcc.GM4
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=Gerber\mcc.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=Project Outputs for Free Documents\Gerber\mcc.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=Gerber\mcc.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument19]
+DocumentPath=Project Outputs for Free Documents\Gerber\mcc.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument20]
+DocumentPath=Gerber\mcc.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument21]
+DocumentPath=Project Outputs for Free Documents\Gerber\mcc.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument22]
+DocumentPath=Gerber\mcc.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument23]
+DocumentPath=Project Outputs for Free Documents\Gerber\mcc.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument24]
+DocumentPath=Gerber\mcc.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument25]
+DocumentPath=Project Outputs for Free Documents\NC Drill\mcc.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument26]
+DocumentPath=Gerber\mcc.REP
+DItemRevisionGUID=
+
+[GeneratedDocument27]
+DocumentPath=Project Outputs for Free Documents\Gerber\mcc.REP
+DItemRevisionGUID=
+
+[GeneratedDocument28]
+DocumentPath=Gerber\mcc.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument29]
+DocumentPath=Gerber\mcc.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument30]
+DocumentPath=Project Outputs for Free Documents\NC Drill\mcc.TXT
 DItemRevisionGUID=
 
 [Configuration1]

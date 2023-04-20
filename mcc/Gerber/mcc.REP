@@ -1,0 +1,250 @@
+*************************************************************
+FileName = mcc.GBR
+AutoAperture = True
+*************************************************************
+Generating : Mechanical 4
+      File : mcc.GM4
+
+    Adding Layer      : Mechanical 4
+
+    Adding Layer      : Mechanical 4
+
+
+Used DCodes :
+    D16
+*************************************************************
+
+*************************************************************
+Generating : Bottom Overlay
+      File : mcc.GBO
+
+    Adding Layer      : Bottom Overlay
+
+    Adding Layer      : Mechanical 4
+
+
+Used DCodes :
+    D16
+*************************************************************
+
+*************************************************************
+Generating : Bottom Paste
+      File : mcc.GBP
+
+    Adding Layer      : Bottom Paste
+
+    Adding Layer      : Mechanical 4
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D16
+*************************************************************
+
+*************************************************************
+Generating : Bottom Solder
+      File : mcc.GBS
+
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : Mechanical 4
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D16
+    D44
+    D45
+    D46
+    D47
+    D48
+    D49
+    D50
+    D51
+    D52
+    D53
+    D54
+    D55
+    D56
+    D57
+    D58
+*************************************************************
+
+*************************************************************
+Generating : Top Solder
+      File : mcc.GTS
+
+    Adding Layer      : Top Solder
+
+    Adding Layer      : Mechanical 4
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D16
+    D21
+    D22
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+    D39
+    D40
+    D41
+    D42
+    D43
+    D44
+    D45
+    D46
+    D47
+    D48
+    D49
+    D50
+    D51
+    D52
+    D53
+    D54
+    D55
+    D56
+    D57
+    D58
+*************************************************************
+
+*************************************************************
+Generating : Top Paste
+      File : mcc.GTP
+
+    Adding Layer      : Top Paste
+
+    Adding Layer      : Mechanical 4
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D16
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+*************************************************************
+
+*************************************************************
+Generating : Top Overlay
+      File : mcc.GTO
+
+    Adding Layer      : Top Overlay
+
+    Adding Layer      : Mechanical 4
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+    D14
+    D15
+    D16
+    D17
+*************************************************************
+
+*************************************************************
+Generating : Bottom Layer
+      File : mcc.GBL
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Mechanical 4
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D13
+    D16
+    D50
+    D51
+    D52
+    D53
+    D60
+    D61
+    D62
+    D63
+    D64
+    D65
+    D66
+    D67
+    D68
+    D69
+*************************************************************
+
+*************************************************************
+Generating : Top Layer
+      File : mcc.GTL
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Mechanical 4
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D13
+    D16
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D50
+    D51
+    D52
+    D53
+    D59
+    D60
+    D61
+    D62
+    D63
+    D64
+    D65
+    D66
+    D67
+    D68
+    D69
+*************************************************************
+
