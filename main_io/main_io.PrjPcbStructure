@@ -1,8 +1,6 @@
 Record=TopLevelDocument|FileName=bus_filter.SchDoc|SheetNumber=1
 Record=NoMainPathDocument|SourceDocument=bus_filter.SchDoc|FileName=connectors.SchDoc|SheetNumber=1
 Record=NoMainPathDocument|SourceDocument=bus_filter.SchDoc|FileName=cover.SchDoc|SheetNumber=1
-Record=NoMainPathDocument|SourceDocument=bus_filter.SchDoc|FileName=ext_light_interface_backbrakebps.SchDoc|SheetNumber=1
-Record=NoMainPathDocument|SourceDocument=bus_filter.SchDoc|FileName=ext_light_interface_backturn.SchDoc|SheetNumber=1
 Record=NoMainPathDocument|SourceDocument=bus_filter.SchDoc|FileName=gpio.SchDoc|SheetNumber=1
 Record=NoMainPathDocument|SourceDocument=bus_filter.SchDoc|FileName=hv_controller_interface.SchDoc|SheetNumber=1
 Record=NoMainPathDocument|SourceDocument=bus_filter.SchDoc|FileName=main_io.SchDoc|SheetNumber=1

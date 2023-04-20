@@ -25,16 +25,24 @@ NameNetsHierarchically=0
 PowerPortNamesTakePriority=0
 AutoSheetNumbering=0
 AutoCrossReferences=0
+NewIndexingOfSheetSymbols=0
 PushECOToAnnotationFile=1
 DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
 IsProjectConflictPreventionWarningsEnabled=1
+IsVirtualBomDocumentRemoved=0
 OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
+CrossRefSheetStyle=1
+CrossRefLocationStyle=1
+CrossRefPorts=3
+CrossRefCrossSheets=1
+CrossRefSheetEntries=0
+CrossRefFollowFromMainSettings=1
 
 [Preferences]
 PrefsVaultGUID=
@@ -488,6 +496,40 @@ GenerateClassCluster=0
 DocumentUniqueId=QVBXVDKU
 
 [Document27]
+DocumentPath=..\main_io\ext_light_interface_backbrakebps.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=13
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=NRZZDEDR
+
+[Document28]
+DocumentPath=..\main_io\ext_light_interface_backturn.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=14
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=ORGAAQDW
+
+[Document29]
 DocumentPath=ext_light_interface_frontheadlight.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -504,7 +546,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=MCCRKEWY
 
-[Document28]
+[Document30]
 DocumentPath=ext_light_interface_frontturn.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -522,199 +564,67 @@ GenerateClassCluster=0
 DocumentUniqueId=ZXETDKIN
 
 [GeneratedDocument1]
-DocumentPath=Project Outputs for driver_io\Design Rule Check - driver_io.html
-DItemRevisionGUID=
-
-[GeneratedDocument2]
-DocumentPath=Project Outputs for driver_io\driver_io.1
-DItemRevisionGUID=
-
-[GeneratedDocument3]
-DocumentPath=Project Outputs for driver_io\driver_io.2
-DItemRevisionGUID=
-
-[GeneratedDocument4]
-DocumentPath=Project Outputs for driver_io\driver_io.3
-DItemRevisionGUID=
-
-[GeneratedDocument5]
-DocumentPath=Project Outputs for driver_io\driver_io.4
-DItemRevisionGUID=
-
-[GeneratedDocument6]
-DocumentPath=Project Outputs for driver_io\driver_io.5
-DItemRevisionGUID=
-
-[GeneratedDocument7]
 DocumentPath=Gerber\driver_io.DRR
 DItemRevisionGUID=
 
-[GeneratedDocument8]
+[GeneratedDocument2]
 DocumentPath=Gerber\driver_io.EXTREP
 DItemRevisionGUID=
 
-[GeneratedDocument9]
-DocumentPath=Project Outputs for driver_io\driver_io.EXTREP
-DItemRevisionGUID=
-
-[GeneratedDocument10]
+[GeneratedDocument3]
 DocumentPath=Gerber\driver_io.GBL
 DItemRevisionGUID=
 
-[GeneratedDocument11]
-DocumentPath=Project Outputs for driver_io\driver_io.GBL
-DItemRevisionGUID=
-
-[GeneratedDocument12]
+[GeneratedDocument4]
 DocumentPath=Gerber\driver_io.GBO
 DItemRevisionGUID=
 
-[GeneratedDocument13]
-DocumentPath=Project Outputs for driver_io\driver_io.GBO
-DItemRevisionGUID=
-
-[GeneratedDocument14]
+[GeneratedDocument5]
 DocumentPath=Gerber\driver_io.GBP
 DItemRevisionGUID=
 
-[GeneratedDocument15]
-DocumentPath=Project Outputs for driver_io\driver_io.GBP
-DItemRevisionGUID=
-
-[GeneratedDocument16]
+[GeneratedDocument6]
 DocumentPath=Gerber\driver_io.GBS
 DItemRevisionGUID=
 
-[GeneratedDocument17]
-DocumentPath=Project Outputs for driver_io\driver_io.GBS
-DItemRevisionGUID=
-
-[GeneratedDocument18]
-DocumentPath=Project Outputs for driver_io\driver_io.GKO
-DItemRevisionGUID=
-
-[GeneratedDocument19]
-DocumentPath=Project Outputs for driver_io\driver_io.GM1
-DItemRevisionGUID=
-
-[GeneratedDocument20]
-DocumentPath=Project Outputs for driver_io\driver_io.GM2
-DItemRevisionGUID=
-
-[GeneratedDocument21]
-DocumentPath=Project Outputs for driver_io\driver_io.GM3
-DItemRevisionGUID=
-
-[GeneratedDocument22]
+[GeneratedDocument7]
 DocumentPath=Gerber\driver_io.GM4
 DItemRevisionGUID=
 
-[GeneratedDocument23]
-DocumentPath=Project Outputs for driver_io\driver_io.GM4
-DItemRevisionGUID=
-
-[GeneratedDocument24]
-DocumentPath=Project Outputs for driver_io\driver_io.GM5
-DItemRevisionGUID=
-
-[GeneratedDocument25]
-DocumentPath=Project Outputs for driver_io\driver_io.GM10
-DItemRevisionGUID=
-
-[GeneratedDocument26]
-DocumentPath=Project Outputs for driver_io\driver_io.GM12
-DItemRevisionGUID=
-
-[GeneratedDocument27]
-DocumentPath=Project Outputs for driver_io\driver_io.GM13
-DItemRevisionGUID=
-
-[GeneratedDocument28]
-DocumentPath=Project Outputs for driver_io\driver_io.GM15
-DItemRevisionGUID=
-
-[GeneratedDocument29]
-DocumentPath=Project Outputs for driver_io\driver_io.GML
-DItemRevisionGUID=
-
-[GeneratedDocument30]
+[GeneratedDocument8]
 DocumentPath=Gerber\driver_io.GP1
 DItemRevisionGUID=
 
-[GeneratedDocument31]
-DocumentPath=Project Outputs for driver_io\driver_io.GP1
-DItemRevisionGUID=
-
-[GeneratedDocument32]
+[GeneratedDocument9]
 DocumentPath=Gerber\driver_io.GP2
 DItemRevisionGUID=
 
-[GeneratedDocument33]
-DocumentPath=Project Outputs for driver_io\driver_io.GP2
-DItemRevisionGUID=
-
-[GeneratedDocument34]
-DocumentPath=Project Outputs for driver_io\driver_io.GPB
-DItemRevisionGUID=
-
-[GeneratedDocument35]
-DocumentPath=Project Outputs for driver_io\driver_io.GPT
-DItemRevisionGUID=
-
-[GeneratedDocument36]
+[GeneratedDocument10]
 DocumentPath=Gerber\driver_io.GTL
 DItemRevisionGUID=
 
-[GeneratedDocument37]
-DocumentPath=Project Outputs for driver_io\driver_io.GTL
-DItemRevisionGUID=
-
-[GeneratedDocument38]
+[GeneratedDocument11]
 DocumentPath=Gerber\driver_io.GTO
 DItemRevisionGUID=
 
-[GeneratedDocument39]
-DocumentPath=Project Outputs for driver_io\driver_io.GTO
-DItemRevisionGUID=
-
-[GeneratedDocument40]
+[GeneratedDocument12]
 DocumentPath=Gerber\driver_io.GTP
 DItemRevisionGUID=
 
-[GeneratedDocument41]
-DocumentPath=Project Outputs for driver_io\driver_io.GTP
-DItemRevisionGUID=
-
-[GeneratedDocument42]
+[GeneratedDocument13]
 DocumentPath=Gerber\driver_io.GTS
 DItemRevisionGUID=
 
-[GeneratedDocument43]
-DocumentPath=Project Outputs for driver_io\driver_io.GTS
-DItemRevisionGUID=
-
-[GeneratedDocument44]
+[GeneratedDocument14]
 DocumentPath=Gerber\driver_io.LDP
 DItemRevisionGUID=
 
-[GeneratedDocument45]
+[GeneratedDocument15]
 DocumentPath=Gerber\driver_io.REP
 DItemRevisionGUID=
 
-[GeneratedDocument46]
-DocumentPath=Project Outputs for driver_io\driver_io.REP
-DItemRevisionGUID=
-
-[GeneratedDocument47]
+[GeneratedDocument16]
 DocumentPath=Gerber\driver_io.RUL
-DItemRevisionGUID=
-
-[GeneratedDocument48]
-DocumentPath=Project Outputs for driver_io\driver_io.RUL
-DItemRevisionGUID=
-
-[GeneratedDocument49]
-DocumentPath=Gerber\driver_io.TXT
 DItemRevisionGUID=
 
 [Configuration1]
@@ -891,12 +801,22 @@ OutputName20=WireList Netlist
 OutputDocumentPath20=
 OutputVariantName20=
 OutputDefault20=0
+OutputType21=XSpiceNetlist
+OutputName21=Mixed Sim Netlist
+OutputDocumentPath21=
+OutputVariantName21=
+OutputDefault21=0
 
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
 TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputType1=AdvSimNetlist
+OutputName1=Mixed Sim
+OutputDocumentPath1=
+OutputVariantName1=
+OutputDefault1=0
 
 [OutputGroup3]
 Name=Documentation Outputs
@@ -906,7 +826,7 @@ PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate
 OutputType1=Composite
 OutputName1=Composite Drawing
 OutputDocumentPath1=
-OutputVariantName1=
+OutputVariantName1=[No Variations]
 OutputDefault1=0
 PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 OutputType2=PCB 3D Print
@@ -924,7 +844,7 @@ PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintS
 OutputType4=PCB Print
 OutputName4=PCB Prints
 OutputDocumentPath4=
-OutputVariantName4=
+OutputVariantName4=[No Variations]
 OutputDefault4=0
 PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 OutputType5=PCBDrawing
@@ -936,7 +856,7 @@ PageOptions5=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintS
 OutputType6=PCBLIB Print
 OutputName6=PCBLIB Prints
 OutputDocumentPath6=
-OutputVariantName6=
+OutputVariantName6=[No Variations]
 OutputDefault6=0
 PageOptions6=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 OutputType7=PDF3D
@@ -969,6 +889,18 @@ OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
 PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+OutputType12=Harness Layout Drawing Print
+OutputName12=Harness Layout Drawing Prints
+OutputDocumentPath12=
+OutputVariantName12=
+OutputDefault12=0
+PageOptions12=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+OutputType13=Harness Wiring Diagram Print
+OutputName13=Harness Wiring Diagram Prints
+OutputDocumentPath13=
+OutputVariantName13=
+OutputDefault13=0
+PageOptions13=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 
 [OutputGroup4]
 Name=Assembly Outputs
@@ -1000,13 +932,13 @@ PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate
 OutputType1=CompositeDrill
 OutputName1=Composite Drill Drawing
 OutputDocumentPath1=
-OutputVariantName1=
+OutputVariantName1=[No Variations]
 OutputDefault1=0
 PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 OutputType2=Drill
 OutputName2=Drill Drawing/Guides
 OutputDocumentPath2=
-OutputVariantName2=
+OutputVariantName2=[No Variations]
 OutputDefault2=0
 PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 OutputType3=Board Stack Report
@@ -1024,7 +956,7 @@ PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintS
 OutputType5=Gerber X2
 OutputName5=Gerber X2 Files
 OutputDocumentPath5=
-OutputVariantName5=
+OutputVariantName5=[No Variations]
 OutputDefault5=0
 OutputType6=ODB
 OutputName6=ODB++ Files
@@ -1034,7 +966,7 @@ OutputDefault6=0
 OutputType7=Mask
 OutputName7=Solder/Paste Mask Prints
 OutputDocumentPath7=
-OutputVariantName7=
+OutputVariantName7=[No Variations]
 OutputDefault7=0
 PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 OutputType8=NC Drill
@@ -1045,12 +977,12 @@ OutputDefault8=0
 OutputType9=IPC2581
 OutputName9=IPC-2581 Files
 OutputDocumentPath9=
-OutputVariantName9=
+OutputVariantName9=[No Variations]
 OutputDefault9=0
 OutputType10=Plane
 OutputName10=Power-Plane Prints
 OutputDocumentPath10=
-OutputVariantName10=
+OutputVariantName10=[No Variations]
 OutputDefault10=0
 PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 OutputType11=Test Points
@@ -1341,6 +1273,11 @@ OutputName11=Specctra Design PCB
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
+OutputType12=Web ReviewOutputName
+OutputName12=Web Review Data
+OutputDocumentPath12=
+OutputVariantName12=
+OutputDefault12=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
@@ -1664,12 +1601,13 @@ Type116=2
 Type117=3
 Type118=3
 Type119=3
-MultiChannelAlternate=2
 AlternateItemFail=3
 Type122=2
 Type123=1
 Type124=1
 Type125=1
+Type126=1
+Type127=1
 
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNWNNNWW
