@@ -473,6 +473,10 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ONOJAPKR
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for main_io\Design Rule Check - main_io.html
+DItemRevisionGUID=
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
