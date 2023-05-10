@@ -2,70 +2,19 @@
 FileName = driver_io.GBR
 AutoAperture = True
 *************************************************************
-Generating : Mechanical 4
-      File : driver_io.GM4
+Generating : Top Overlay
+      File : driver_io.GTO
 
-    Adding Layer      : Mechanical 4
-
-    Adding Layer      : Mechanical 4
-
-
-Used DCodes :
-    D11
-*************************************************************
-
-*************************************************************
-Generating : Bottom Overlay
-      File : driver_io.GBO
-
-    Adding Layer      : Bottom Overlay
+    Adding Layer      : Top Overlay
 
     Adding Layer      : Mechanical 4
 
 
 Used DCodes :
+    D10
     D11
-*************************************************************
-
-*************************************************************
-Generating : Bottom Paste
-      File : driver_io.GBP
-
-    Adding Layer      : Bottom Paste
-
-    Adding Layer      : Mechanical 4
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D11
-*************************************************************
-
-*************************************************************
-Generating : Bottom Solder
-      File : driver_io.GBS
-
-    Adding Layer      : Bottom Solder
-
-    Adding Layer      : Mechanical 4
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D11
-    D62
-    D72
-    D73
-    D74
-    D75
-    D76
-    D77
+    D12
+    D13
 *************************************************************
 
 *************************************************************
@@ -82,15 +31,11 @@ Generating : Top Solder
 
 
 Used DCodes :
-    D11
-    D27
-    D44
-    D45
-    D46
-    D47
-    D48
-    D49
-    D50
+    D29
+    D30
+    D35
+    D37
+    D38
     D51
     D52
     D53
@@ -118,6 +63,18 @@ Used DCodes :
     D75
     D76
     D77
+    D78
+    D79
+    D80
+    D81
+    D82
+    D83
+    D84
+    D85
+    D86
+    D87
+    D88
+    D89
 *************************************************************
 
 *************************************************************
@@ -134,7 +91,7 @@ Generating : Top Paste
 
 
 Used DCodes :
-    D11
+    D14
     D15
     D16
     D17
@@ -164,45 +121,29 @@ Used DCodes :
     D41
     D42
     D43
+    D44
+    D45
+    D46
+    D47
+    D48
+    D49
+    D50
 *************************************************************
 
 *************************************************************
-Generating : Top Overlay
-      File : driver_io.GTO
+Generating : Bottom Paste
+      File : driver_io.GBP
 
-    Adding Layer      : Top Overlay
+    Adding Layer      : Bottom Paste
 
     Adding Layer      : Mechanical 4
-
-
-Used DCodes :
-    D10
-    D11
-    D12
-    D13
-    D14
-*************************************************************
-
-*************************************************************
-Generating : Bottom Layer
-      File : driver_io.GBL
 
     Adding Layer      : Bottom Layer
-
-    Adding Layer      : Mechanical 4
 
     Adding Layer      : Multi-Layer
 
 
 Used DCodes :
-    D11
-    D34
-    D79
-    D80
-    D81
-    D82
-    D83
-    D84
 *************************************************************
 
 *************************************************************
@@ -217,17 +158,14 @@ Generating : Int2 (PWR)
 
 
 Used DCodes :
-    D11
-    D76
+    D10
     D84
-    D85
-    D86
-    D87
-    D88
-    D89
-    D90
-    D91
-    D92
+    D95
+    D97
+    D98
+    D99
+    D100
+    D101
 *************************************************************
 
 *************************************************************
@@ -242,17 +180,13 @@ Generating : Int1 (GND)
 
 
 Used DCodes :
-    D11
-    D76
     D84
-    D85
-    D86
-    D87
-    D88
-    D89
-    D90
-    D91
-    D92
+    D95
+    D97
+    D98
+    D99
+    D100
+    D101
 *************************************************************
 
 *************************************************************
@@ -267,7 +201,8 @@ Generating : Top Layer
 
 
 Used DCodes :
-    D11
+    D10
+    D15
     D16
     D17
     D18
@@ -296,13 +231,90 @@ Used DCodes :
     D41
     D42
     D43
-    D55
-    D78
-    D79
-    D80
-    D81
-    D82
+    D44
+    D45
+    D46
+    D47
+    D48
+    D49
+    D50
+    D69
+    D90
+    D91
+    D92
+    D93
+    D94
+    D95
+    D96
+*************************************************************
+
+*************************************************************
+Generating : Bottom Solder
+      File : driver_io.GBS
+
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : Mechanical 4
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
     D83
     D84
+    D85
+    D86
+    D87
+    D88
+    D89
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 1
+      File : driver_io.GM1
+
+    Adding Layer      : Mechanical 1
+
+    Adding Layer      : Mechanical 4
+
+
+Used DCodes :
+    D10
+*************************************************************
+
+*************************************************************
+Generating : Bottom Overlay
+      File : driver_io.GBO
+
+    Adding Layer      : Bottom Overlay
+
+    Adding Layer      : Mechanical 4
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Bottom Layer
+      File : driver_io.GBL
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Mechanical 4
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D90
+    D91
+    D92
+    D93
+    D94
+    D95
+    D96
 *************************************************************
 

@@ -1,5 +1,5 @@
 ----------------------------------------------------------------------------------------------------------------------------------
-NCDrill File Report For: driver_io.PcbDoc   9/28/2022  10:53:27 PM
+NCDrill File Report For: driver_io.PcbDoc   5/9/2023  11:20:44 PM
 ----------------------------------------------------------------------------------------------------------------------------------
 
 Layer Pair : Top Layer to Bottom Layer
@@ -7,13 +7,13 @@ ASCII RoundHoles File : driver_io.TXT
 
 Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
 ----------------------------------------------------------------------------------------------------------------------------------
-T1      15mil (0.381mm)                                           Round             64        PTH        26.28inch (667.61mm)
-T2      39mil (1mm)                                               Round             12        PTH        1.55inch (39.50mm)
-T3      40mil (1.016mm)                                           Round             98        PTH        21.57inch (548.00mm)
-T4      63mil (1.6mm)                                             Round             8         PTH        1.57inch (39.81mm)
-T5      118mil (2.997mm)                                          Round             18        PTH        13.09inch (332.57mm)
-T6      116mil (2.946mm)                                          Round             4         NPTH       6.50inch (165.00mm)
+T1      28mil (0.711mm)                                           Round             147       PTH        39.84inch (1011.96mm)
+T2      39mil (1mm)                                               Round             12        PTH        1.17inch (29.84mm)
+T3      40mil (1.016mm)                                           Round             102       PTH        22.98inch (583.82mm)
+T4      63mil (1.6mm)                                             Round             8         PTH        2.09inch (53.06mm)
+T5      118mil (2.997mm)                                          Round             21        PTH        13.29inch (337.45mm)
+T6      116mil (2.946mm)                                          Round             8         NPTH       18.40inch (467.48mm)
 ----------------------------------------------------------------------------------------------------------------------------------
-Totals                                                                              204
+Totals                                                                              298
 
-Total Processing Time (hh:mm:ss) : 00:00:00
+Total Processing Time (hh:mm:ss) : 00:00:01

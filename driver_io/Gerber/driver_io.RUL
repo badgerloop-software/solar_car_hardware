@@ -1,4 +1,4 @@
-DRC Rules Export File for PCB: C:\git\solar_car_hardware\driver_io\driver_io.PcbDoc
+DRC Rules Export File for PCB: C:\Users\Jacob H\Projects\Badgerloop\git\solar_car_hardware\driver_io\driver_io.PcbDoc
 RuleKind=MinimumAnnularRing|RuleName=MinimumAnnularRing|Scope=Board|Minimum=5.00
 RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=4.00
 RuleKind=Width|RuleName=Width|Scope=Board|Minimum=10.00
