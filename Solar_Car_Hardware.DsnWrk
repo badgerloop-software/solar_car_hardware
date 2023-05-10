@@ -5,10 +5,10 @@ ProjectPath=board_template\board_template.PrjPcb
 [Project2]
 ProjectPath=driver_io\driver_io.PrjPcb
 [Project3]
-ProjectPath=main_io\main_io.PrjPcb
-[Project4]
 ProjectPath=hv_controller\hv_controller.PrjPcb
-[Project5]
+[Project4]
 ProjectPath=array_breakout\array_breakout.PrjPcb
-[Project6]
+[Project5]
 ProjectPath=mcc\mcc.PrjPcb
+[Project6]
+ProjectPath=main_io\main_io.PrjPcb
