@@ -55,7 +55,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=0
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -66,13 +66,13 @@ GenerateClassCluster=0
 DocumentUniqueId=YKQPVHWL
 
 [Document2]
-DocumentPath=Sheet1.SchDoc
+DocumentPath=CAN.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -310,7 +310,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=2
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -344,7 +344,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=3
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -361,7 +361,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=4
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -371,28 +371,62 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=BPWSAQHC
 
+[Document20]
+DocumentPath=Job1.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document21]
+DocumentPath=revb_gerbers.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [GeneratedDocument1]
-DocumentPath=Project Outputs for mcc\Design Rule Check - mcc.html
+DocumentPath=Project Outputs for mcc_revB\Design Rule Check - mcc.html
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=Gerber\mcc.DRR
+DocumentPath=Project Outputs for mcc_revB_2\Design Rule Check - mcc.html
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=Project Outputs for mcc\NC Drill\mcc.DRR
+DocumentPath=Gerber\mcc.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=Gerber\mcc.EXTREP
+DocumentPath=Project Outputs for Free Documents\NC Drill\mcc.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=Project Outputs for mcc\Gerber\mcc.EXTREP
+DocumentPath=Gerber\mcc.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=Project Outputs for mcc\mcc.EXTREP
+DocumentPath=Project Outputs for Free Documents\Gerber\mcc.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument7]
@@ -400,75 +434,99 @@ DocumentPath=Gerber\mcc.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=Gerber\mcc.GBO
+DocumentPath=Project Outputs for Free Documents\Gerber\mcc.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=Gerber\mcc.GBP
+DocumentPath=Gerber\mcc.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=Gerber\mcc.GBS
+DocumentPath=Project Outputs for Free Documents\Gerber\mcc.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=Gerber\mcc.GM4
+DocumentPath=Gerber\mcc.GBP
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=Gerber\mcc.GTL
+DocumentPath=Project Outputs for Free Documents\Gerber\mcc.GBP
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=Gerber\mcc.GTO
+DocumentPath=Gerber\mcc.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument14]
-DocumentPath=Gerber\mcc.GTP
+DocumentPath=Project Outputs for Free Documents\Gerber\mcc.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument15]
-DocumentPath=Gerber\mcc.GTS
+DocumentPath=Project Outputs for Free Documents\Gerber\mcc.GM1
 DItemRevisionGUID=
 
 [GeneratedDocument16]
-DocumentPath=Gerber\mcc.LDP
+DocumentPath=Gerber\mcc.GM4
 DItemRevisionGUID=
 
 [GeneratedDocument17]
-DocumentPath=Project Outputs for mcc\NC Drill\mcc.LDP
+DocumentPath=Gerber\mcc.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument18]
-DocumentPath=Gerber\mcc.REP
+DocumentPath=Project Outputs for Free Documents\Gerber\mcc.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument19]
-DocumentPath=Project Outputs for mcc\Gerber\mcc.REP
+DocumentPath=Gerber\mcc.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument20]
-DocumentPath=Project Outputs for mcc\mcc.REP
+DocumentPath=Project Outputs for Free Documents\Gerber\mcc.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument21]
-DocumentPath=Gerber\mcc.RUL
+DocumentPath=Gerber\mcc.GTP
 DItemRevisionGUID=
 
 [GeneratedDocument22]
-DocumentPath=Project Outputs for mcc\Gerber\mcc.RUL
+DocumentPath=Project Outputs for Free Documents\Gerber\mcc.GTP
 DItemRevisionGUID=
 
 [GeneratedDocument23]
-DocumentPath=Project Outputs for mcc\mcc.RUL
+DocumentPath=Gerber\mcc.GTS
 DItemRevisionGUID=
 
 [GeneratedDocument24]
-DocumentPath=Gerber\mcc.TXT
+DocumentPath=Project Outputs for Free Documents\Gerber\mcc.GTS
 DItemRevisionGUID=
 
 [GeneratedDocument25]
-DocumentPath=Project Outputs for mcc\NC Drill\mcc.TXT
+DocumentPath=Gerber\mcc.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument26]
+DocumentPath=Project Outputs for Free Documents\NC Drill\mcc.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument27]
+DocumentPath=Gerber\mcc.REP
+DItemRevisionGUID=
+
+[GeneratedDocument28]
+DocumentPath=Project Outputs for Free Documents\Gerber\mcc.REP
+DItemRevisionGUID=
+
+[GeneratedDocument29]
+DocumentPath=Gerber\mcc.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument30]
+DocumentPath=Gerber\mcc.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument31]
+DocumentPath=Project Outputs for Free Documents\NC Drill\mcc.TXT
 DItemRevisionGUID=
 
 [Configuration1]
@@ -586,22 +644,12 @@ OutputName20=WireList Netlist
 OutputDocumentPath20=
 OutputVariantName20=
 OutputDefault20=0
-OutputType21=XSpiceNetlist
-OutputName21=Mixed Sim Netlist
-OutputDocumentPath21=
-OutputVariantName21=
-OutputDefault21=0
 
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
 TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputType1=AdvSimNetlist
-OutputName1=Mixed Sim
-OutputDocumentPath1=
-OutputVariantName1=
-OutputDefault1=0
 
 [OutputGroup3]
 Name=Documentation Outputs
@@ -833,6 +881,12 @@ OutputDocumentPath8=
 OutputVariantName8=[No Variations]
 OutputDefault8=0
 PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+OutputType9=Project History
+OutputName9=Project History
+OutputDocumentPath9=
+OutputVariantName9=[No Variations]
+OutputDefault9=0
+PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 
 [OutputGroup7]
 Name=Other Outputs
@@ -1183,6 +1237,7 @@ Type116=1
 Type117=1
 Type118=1
 Type119=1
+Type120=1
 
 [Difference Levels]
 Type1=1
