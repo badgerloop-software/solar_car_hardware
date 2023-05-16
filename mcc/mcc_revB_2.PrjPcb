@@ -410,118 +410,122 @@ DocumentPath=Project Outputs for mcc_revB\Design Rule Check - mcc.html
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=Gerber\mcc.DRR
+DocumentPath=Project Outputs for mcc_revB_2\Design Rule Check - mcc.html
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=Project Outputs for Free Documents\NC Drill\mcc.DRR
+DocumentPath=Gerber\mcc.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=Gerber\mcc.EXTREP
+DocumentPath=Project Outputs for Free Documents\NC Drill\mcc.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=Project Outputs for Free Documents\Gerber\mcc.EXTREP
+DocumentPath=Gerber\mcc.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=Gerber\mcc.GBL
+DocumentPath=Project Outputs for Free Documents\Gerber\mcc.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=Project Outputs for Free Documents\Gerber\mcc.GBL
+DocumentPath=Gerber\mcc.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=Gerber\mcc.GBO
+DocumentPath=Project Outputs for Free Documents\Gerber\mcc.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=Project Outputs for Free Documents\Gerber\mcc.GBO
+DocumentPath=Gerber\mcc.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=Gerber\mcc.GBP
+DocumentPath=Project Outputs for Free Documents\Gerber\mcc.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=Project Outputs for Free Documents\Gerber\mcc.GBP
+DocumentPath=Gerber\mcc.GBP
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=Gerber\mcc.GBS
+DocumentPath=Project Outputs for Free Documents\Gerber\mcc.GBP
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=Project Outputs for Free Documents\Gerber\mcc.GBS
+DocumentPath=Gerber\mcc.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument14]
-DocumentPath=Project Outputs for Free Documents\Gerber\mcc.GM1
+DocumentPath=Project Outputs for Free Documents\Gerber\mcc.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument15]
-DocumentPath=Gerber\mcc.GM4
+DocumentPath=Project Outputs for Free Documents\Gerber\mcc.GM1
 DItemRevisionGUID=
 
 [GeneratedDocument16]
-DocumentPath=Gerber\mcc.GTL
+DocumentPath=Gerber\mcc.GM4
 DItemRevisionGUID=
 
 [GeneratedDocument17]
-DocumentPath=Project Outputs for Free Documents\Gerber\mcc.GTL
+DocumentPath=Gerber\mcc.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument18]
-DocumentPath=Gerber\mcc.GTO
+DocumentPath=Project Outputs for Free Documents\Gerber\mcc.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument19]
-DocumentPath=Project Outputs for Free Documents\Gerber\mcc.GTO
+DocumentPath=Gerber\mcc.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument20]
-DocumentPath=Gerber\mcc.GTP
+DocumentPath=Project Outputs for Free Documents\Gerber\mcc.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument21]
-DocumentPath=Project Outputs for Free Documents\Gerber\mcc.GTP
+DocumentPath=Gerber\mcc.GTP
 DItemRevisionGUID=
 
 [GeneratedDocument22]
-DocumentPath=Gerber\mcc.GTS
+DocumentPath=Project Outputs for Free Documents\Gerber\mcc.GTP
 DItemRevisionGUID=
 
 [GeneratedDocument23]
-DocumentPath=Project Outputs for Free Documents\Gerber\mcc.GTS
+DocumentPath=Gerber\mcc.GTS
 DItemRevisionGUID=
 
 [GeneratedDocument24]
-DocumentPath=Gerber\mcc.LDP
+DocumentPath=Project Outputs for Free Documents\Gerber\mcc.GTS
 DItemRevisionGUID=
 
 [GeneratedDocument25]
-DocumentPath=Project Outputs for Free Documents\NC Drill\mcc.LDP
+DocumentPath=Gerber\mcc.LDP
 DItemRevisionGUID=
 
 [GeneratedDocument26]
-DocumentPath=Gerber\mcc.REP
+DocumentPath=Project Outputs for Free Documents\NC Drill\mcc.LDP
 DItemRevisionGUID=
 
 [GeneratedDocument27]
-DocumentPath=Project Outputs for Free Documents\Gerber\mcc.REP
+DocumentPath=Gerber\mcc.REP
 DItemRevisionGUID=
 
 [GeneratedDocument28]
-DocumentPath=Gerber\mcc.RUL
+DocumentPath=Project Outputs for Free Documents\Gerber\mcc.REP
 DItemRevisionGUID=
 
 [GeneratedDocument29]
-DocumentPath=Gerber\mcc.TXT
+DocumentPath=Gerber\mcc.RUL
 DItemRevisionGUID=
 
 [GeneratedDocument30]
+DocumentPath=Gerber\mcc.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument31]
 DocumentPath=Project Outputs for Free Documents\NC Drill\mcc.TXT
 DItemRevisionGUID=
 
@@ -1101,6 +1105,36 @@ OutputName12=Web Review Data
 OutputDocumentPath12=
 OutputVariantName12=
 OutputDefault12=0
+OutputType13=Ansoft Neutral
+OutputName13=Ansoft Neutral (AutoPCB)
+OutputDocumentPath13=
+OutputVariantName13=
+OutputDefault13=0
+OutputType14=HyperLynx
+OutputName14=HyperLynx (AutoPCB)
+OutputDocumentPath14=
+OutputVariantName14=
+OutputDefault14=0
+OutputType15=Orcad v7 Capture Design
+OutputName15=Orcad v7 Capture Design (AutoSCH)
+OutputDocumentPath15=
+OutputVariantName15=
+OutputDefault15=0
+OutputType16=P-CAD ASCII
+OutputName16=P-CAD ASCII (AutoPCB)
+OutputDocumentPath16=
+OutputVariantName16=
+OutputDefault16=0
+OutputType17=P-CAD V16 Schematic Design
+OutputName17=P-CAD V16 Schematic Design (AutoSCH)
+OutputDocumentPath17=
+OutputVariantName17=
+OutputDefault17=0
+OutputType18=SiSoft
+OutputName18=SiSoft (AutoPCB)
+OutputDocumentPath18=
+OutputVariantName18=
+OutputDefault18=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
