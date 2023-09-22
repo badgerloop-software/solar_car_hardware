@@ -1,0 +1,19 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: bombs breakout.PcbDoc   3/27/2023  4:00:49 PM
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : bombs breakout.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      13mil (0.33mm)                                            Round             62        PTH        31.54inch (801.01mm)
+T2      39mil (1mm)                                               Round             24        PTH        8.74inch (222.10mm)
+T3      40mil (1.016mm)                                           Round             8         PTH        0.94inch (23.98mm)
+T4      59mil (1.5mm)                                             Round             14        PTH        16.60inch (421.76mm)
+T5      98mil (2.5mm)                                             Round             6         PTH        9.45inch (240.13mm)
+T6      118mil (2.997mm)                                          Round             2         PTH        0.19inch (4.70mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              116
+
+Total Processing Time (hh:mm:ss) : 00:00:00

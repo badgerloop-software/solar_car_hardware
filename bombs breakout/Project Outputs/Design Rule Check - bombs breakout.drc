@@ -1,0 +1,64 @@
+Protel Design System Design Rule Check
+PCB File : C:\Users\Lucas\OneDrive\College\4 (Senior)\Spring 2023\BOMBS\bombs breakout\bombs breakout\bombs breakout.PcbDoc
+Date     : 3/27/2023
+Time     : 3:41:58 PM
+
+Processing Rule : Clearance Constraint (Gap=10mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=6mil) (Max=50mil) (Preferred=10mil) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=1mil) (Max=150mil) (All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=10mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=3mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Silk To Solder Mask (Clearance=3mil) (IsPad),(All)
+Rule Violations :0
+
+Processing Rule : Silk to Silk (Clearance=5mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mil) (All)
+Rule Violations :0
+
+Processing Rule : Room dc-dc converter (Bounding Region = (1940mil, 7640mil, 3884.843mil, 8320mil) (InComponentClass('dc-dc converter'))
+Rule Violations :0
+
+Processing Rule : Room primary cell interface (Bounding Region = (1000mil, 1000mil, 5540mil, 5680mil) (InComponentClass('primary cell interface'))
+Rule Violations :0
+
+Processing Rule : Room primary temperature (Bounding Region = (3477.401mil, 5740mil, 5479.803mil, 6900mil) (InComponentClass('primary temperature'))
+Rule Violations :0
+
+Processing Rule : Room ltc6811 (Bounding Region = (1040mil, 5720mil, 3380mil, 7600mil) (InComponentClass('ltc6811'))
+   Violation between Room Definition: Between Room ltc6811 (Bounding Region = (1040mil, 5720mil, 3380mil, 7600mil) (InComponentClass('ltc6811')) And Small Component P12-Screw Terminal 2x1 (300mil,6720mil) on Top Layer 
+Rule Violations :1
+
+Processing Rule : Room current sense (Bounding Region = (3930.63mil, 6940mil, 5440.63mil, 7920mil) (InComponentClass('current sense'))
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mil) (Max=2000mil) (Prefered=500mil) (All)
+Rule Violations :0
+
+
+Violations Detected : 1
+Waived Violations : 0
+Time Elapsed        : 00:00:01
